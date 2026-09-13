@@ -1,0 +1,139 @@
+<style>
+  :root { --forest:#173f35; --moss:#4e7450; --leaf:#76a85d; --bud:#b8cf75; --gold:#d8a841; --soil:#8b6644; --cream:#f5f0e4; --ink:#18352e; }
+  .tree-wrap { max-width: 1180px; margin: 0 auto; color: var(--ink); }
+  .eyebrow { text-transform: uppercase; letter-spacing: .16em; color: var(--moss); font-weight: 800; font-size: .72rem; margin-bottom: .45rem; }
+  .tree-wrap h2 { font-family: Georgia, serif; font-size: clamp(2rem,4vw,3.3rem); line-height:1.04; margin:0 0 .45rem; color:var(--forest); }
+  .lead { max-width: 840px; font-size:1.05rem; line-height:1.6; margin:0 0 1.4rem; }
+  .hero-copy { background:#173f35; border:1px solid #2d5a4e; border-radius:18px; padding:1.25rem 1.4rem; margin-bottom:1.2rem; box-shadow:0 12px 30px rgba(7,28,23,.18); color:#fff; }
+  .hero-copy .eyebrow { color:#d9eba9; }
+  .hero-copy h2 { color:#fff; text-shadow:0 2px 2px rgba(0,0,0,.2); }
+  .hero-copy .lead { color:#f7f3e9; margin-bottom:0; }
+  .journey { background:linear-gradient(180deg,#eef5e8 0%,#fbf7ed 67%,#dfceb0 68%,#b69168 100%); border:1px solid #d8dfca; border-radius:22px; overflow:hidden; box-shadow:0 18px 45px rgba(23,63,53,.11); }
+  .journey svg { display:block; width:100%; height:auto; }
+  .stages { display:grid; grid-template-columns:repeat(5,1fr); gap:0; background:rgba(255,255,255,.9); border-top:1px solid #dcd7ca; }
+  .stage { padding:1rem .85rem 1.1rem; min-height:145px; border-right:1px solid #e5e1d8; }
+  .stage:last-child { border-right:0; }
+  .stage .num { display:inline-grid; place-items:center; width:25px; height:25px; border-radius:50%; color:white; background:var(--forest); font-size:.74rem; font-weight:800; }
+  .stage h3 { font-family:Georgia,serif; margin:.5rem 0 .25rem; color:var(--forest); font-size:1.02rem; }
+  .stage p { margin:0; color:#52635d; font-size:.82rem; line-height:1.42; }
+  .meaning { display:grid; grid-template-columns:1.2fr .8fr; gap:1rem; margin-top:1.2rem; }
+  .panel { background:#fff; border:1px solid #dedbd2; border-radius:16px; padding:1rem 1.1rem; }
+  .panel h3 { margin:0 0 .55rem; color:var(--forest); font-family:Georgia,serif; }
+  .panel ul { margin:.25rem 0 0; padding-left:1.15rem; }
+  .panel li { margin:.38rem 0; line-height:1.4; color:#43554f; }
+  .guardrail { border-left:5px solid var(--gold); background:#fff9e9; }
+  .title-question { margin-top:1.35rem; }
+  .title-question h3 { margin-bottom:.25rem; }
+  .title-question .subtitle { margin-top:0; }
+  .title-options { display:grid; grid-template-columns:repeat(3,1fr); gap:.75rem; }
+  .title-options .option { min-height:92px; }
+  .recommended { display:inline-block; margin-left:.35rem; font:700 .64rem/1 system-ui; letter-spacing:.06em; text-transform:uppercase; color:#fff; background:var(--moss); border-radius:999px; padding:.25rem .42rem; vertical-align:middle; }
+  @media (max-width:800px){ .stages{grid-template-columns:1fr}.stage{border-right:0;border-bottom:1px solid #e5e1d8;min-height:auto}.meaning,.title-options{grid-template-columns:1fr} }
+</style>
+
+<div class="tree-wrap">
+  <div class="hero-copy">
+    <div class="eyebrow">Working transformation metaphor</div>
+    <h2>From Rooted Passion to Multiplying Impact</h2>
+    <p class="lead">A church is not “dead” because it looks bare. The calling and roots may still be alive beneath the surface. Focus, clarity, and life-giving systems help that latent passion become visible fruit—and eventually life beyond itself.</p>
+  </div>
+
+  <div class="journey">
+    <svg viewBox="0 0 1200 470" role="img" aria-label="A five-stage tree journey from a bare rooted tree to buds, blossoms, fruit, scattered seeds, and young saplings">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#dce8e3"/><stop offset=".5" stop-color="#eaf3dd"/><stop offset="1" stop-color="#fff0c8"/></linearGradient>
+        <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9c784f"/><stop offset="1" stop-color="#6f5137"/></linearGradient>
+        <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity=".15"/></filter>
+      </defs>
+      <rect width="1200" height="350" fill="url(#sky)"/>
+      <circle cx="1045" cy="82" r="44" fill="#f3ca66" opacity=".8"/>
+      <g fill="none" stroke="#fff" stroke-width="4" opacity=".65"><path d="M820 86c25-17 51-10 62 7 21-23 63-15 68 14H801c2-9 8-16 19-21z"/><path d="M160 86c20-15 42-8 50 7 18-18 48-12 54 12H143c2-8 7-14 17-19z"/></g>
+      <rect y="350" width="1200" height="120" fill="url(#ground)"/>
+      <path d="M0 350 Q120 328 240 350 T480 350 T720 350 T960 350 T1200 350" fill="#71935a" opacity=".58"/>
+
+      <!-- Stage 1: rooted / bare -->
+      <g transform="translate(125 340)" filter="url(#shadow)">
+        <path d="M0 10 C-22 45-50 69-82 88 M0 11 C22 45 51 67 84 87 M0 20 C-5 58-15 84-32 106 M0 18 C9 56 24 82 48 103" fill="none" stroke="#6e513b" stroke-width="8" stroke-linecap="round"/>
+        <path d="M-6 8 C-11-52-10-110 0-170 C-25-197-40-224-47-250 M-2-170 C23-200 33-225 34-254 M-5-112 C-37-132-61-159-72-188 M-7-74 C31-97 51-124 58-156" fill="none" stroke="#72543c" stroke-width="13" stroke-linecap="round"/>
+        <path d="M-47-250l-22-22M-47-250l8-31M34-254l24-24M34-254l-4-32M-72-188l-26-12M58-156l25-20" fill="none" stroke="#72543c" stroke-width="7" stroke-linecap="round"/>
+      </g>
+      <text x="62" y="42" font-family="system-ui" font-weight="800" font-size="16" fill="#355a4b">ROOTED</text>
+
+      <!-- Stage 2: buds / focus -->
+      <g transform="translate(345 340)" filter="url(#shadow)">
+        <path d="M0 6 C-7-62-3-120 2-181 M0-129l-52-61 M0-150l48-66 M1-92l-67-39 M0-78l62-50" fill="none" stroke="#6d5138" stroke-width="14" stroke-linecap="round"/>
+        <g fill="#afc96e"><circle cx="-52" cy="-190" r="11"/><circle cx="48" cy="-216" r="12"/><circle cx="-67" cy="-131" r="10"/><circle cx="62" cy="-128" r="11"/><circle cx="3" cy="-181" r="12"/></g>
+        <g fill="#d7e6a2"><ellipse cx="-42" cy="-176" rx="15" ry="8" transform="rotate(28 -42 -176)"/><ellipse cx="39" cy="-199" rx="16" ry="8" transform="rotate(-28 39 -199)"/><ellipse cx="53" cy="-115" rx="14" ry="8" transform="rotate(-25 53 -115)"/></g>
+      </g>
+      <g stroke="#d5a33b" stroke-width="4" opacity=".85"><path d="M278 56l53 58"/><path d="M286 50l62 22"/><path d="M272 69l25 63"/></g>
+      <text x="282" y="42" font-family="system-ui" font-weight="800" font-size="16" fill="#355a4b">FOCUSED</text>
+
+      <!-- Stage 3: flourishing / flowering -->
+      <g transform="translate(590 340)" filter="url(#shadow)">
+        <path d="M0 5 C-5-72 0-127 4-180" fill="none" stroke="#694f37" stroke-width="18" stroke-linecap="round"/>
+        <circle cx="-4" cy="-193" r="92" fill="#5f8c52"/><circle cx="-71" cy="-157" r="60" fill="#729f59"/><circle cx="69" cy="-155" r="65" fill="#76a85d"/><circle cx="-54" cy="-228" r="49" fill="#83ae62"/><circle cx="56" cy="-230" r="54" fill="#669653"/>
+        <g fill="#f6e7b4"><circle cx="-79" cy="-185" r="8"/><circle cx="-34" cy="-243" r="8"/><circle cx="18" cy="-201" r="8"/><circle cx="72" cy="-224" r="8"/><circle cx="83" cy="-152" r="8"/><circle cx="-9" cy="-135" r="8"/></g>
+        <g fill="#dc9d38"><circle cx="-79" cy="-185" r="3"/><circle cx="-34" cy="-243" r="3"/><circle cx="18" cy="-201" r="3"/><circle cx="72" cy="-224" r="3"/><circle cx="83" cy="-152" r="3"/><circle cx="-9" cy="-135" r="3"/></g>
+        <g transform="translate(124 -214)"><ellipse cx="0" cy="0" rx="10" ry="6" fill="#d89b2b"/><path d="M-2-2c-7-13-20-8-16 2M3-2c8-12 20-6 16 3" fill="#dcecf0" stroke="#698b87" stroke-width="2"/><path d="M-7 0h14" stroke="#513b28" stroke-width="2"/></g>
+      </g>
+      <text x="515" y="42" font-family="system-ui" font-weight="800" font-size="16" fill="#355a4b">FLOURISHING</text>
+
+      <!-- Stage 4: fruit / relationships -->
+      <g transform="translate(825 340)" filter="url(#shadow)">
+        <path d="M0 5 C-5-72 0-127 4-180" fill="none" stroke="#694f37" stroke-width="18" stroke-linecap="round"/>
+        <circle cx="-4" cy="-193" r="92" fill="#4f7e49"/><circle cx="-71" cy="-157" r="60" fill="#669956"/><circle cx="69" cy="-155" r="65" fill="#6d9d55"/><circle cx="-54" cy="-228" r="49" fill="#78a95a"/><circle cx="56" cy="-230" r="54" fill="#5f914f"/>
+        <g fill="#d8a841"><circle cx="-77" cy="-177" r="10"/><circle cx="-32" cy="-230" r="10"/><circle cx="22" cy="-193" r="10"/><circle cx="71" cy="-218" r="10"/><circle cx="80" cy="-145" r="10"/><circle cx="-4" cy="-127" r="10"/></g>
+        <path d="M-114-129q-26 15-46 2M110-131q27 11 43-3" fill="none" stroke="#d8a841" stroke-width="3" stroke-dasharray="5 6"/>
+      </g>
+      <text x="764" y="42" font-family="system-ui" font-weight="800" font-size="16" fill="#355a4b">FRUITFUL</text>
+
+      <!-- Stage 5: seeds / saplings -->
+      <g transform="translate(1058 340)" filter="url(#shadow)">
+        <path d="M0 5 C-5-72 0-127 4-180" fill="none" stroke="#694f37" stroke-width="18" stroke-linecap="round"/>
+        <circle cx="-4" cy="-193" r="92" fill="#426f43"/><circle cx="-71" cy="-157" r="60" fill="#5d8d4d"/><circle cx="69" cy="-155" r="65" fill="#67974f"/><circle cx="-54" cy="-228" r="49" fill="#73a157"/><circle cx="56" cy="-230" r="54" fill="#528247"/>
+        <g fill="#d9b552"><ellipse cx="-101" cy="-110" rx="5" ry="9" transform="rotate(-35 -101 -110)"/><ellipse cx="-134" cy="-80" rx="5" ry="9" transform="rotate(-50 -134 -80)"/><ellipse cx="-166" cy="-52" rx="5" ry="9" transform="rotate(-60 -166 -52)"/></g>
+        <g transform="translate(-122 28)"><path d="M0 0v-45" stroke="#507e46" stroke-width="7"/><ellipse cx="-12" cy="-34" rx="15" ry="7" fill="#79a95b" transform="rotate(25 -12 -34)"/><ellipse cx="13" cy="-23" rx="15" ry="7" fill="#6c9a50" transform="rotate(-25 13 -23)"/></g>
+        <g transform="translate(128 28)"><path d="M0 0v-68" stroke="#4c7542" stroke-width="8"/><ellipse cx="-15" cy="-52" rx="18" ry="8" fill="#75a457" transform="rotate(25 -15 -52)"/><ellipse cx="16" cy="-37" rx="18" ry="8" fill="#6a984e" transform="rotate(-25 16 -37)"/><ellipse cx="0" cy="-68" rx="13" ry="7" fill="#85b164"/></g>
+      </g>
+      <text x="988" y="42" font-family="system-ui" font-weight="800" font-size="16" fill="#355a4b">MULTIPLYING</text>
+
+      <path d="M190 71H1030" stroke="#355a4b" stroke-width="2" opacity=".3"/>
+      <g fill="#355a4b"><path d="M343 71l-12-7v14z"/><path d="M588 71l-12-7v14z"/><path d="M823 71l-12-7v14z"/><path d="M1030 71l-12-7v14z"/></g>
+    </svg>
+
+    <div class="stages">
+      <div class="stage"><span class="num">1</span><h3>Rooted</h3><p>The calling and passion remain, even when visible growth has stalled.</p></div>
+      <div class="stage"><span class="num">2</span><h3>Focused</h3><p>Vision and mission align scattered energy. Flashlight becomes laser.</p></div>
+      <div class="stage"><span class="num">3</span><h3>Flourishing</h3><p>Life-giving systems nourish people and create capacity for ministry.</p></div>
+      <div class="stage"><span class="num">4</span><h3>Fruitful</h3><p>Authentic community relationships produce visible, shared impact.</p></div>
+      <div class="stage"><span class="num">5</span><h3>Multiplying</h3><p>Seeds travel beyond the church; new life takes root around it.</p></div>
+    </div>
+  </div>
+
+  <div class="meaning">
+    <div class="panel">
+      <h3>Why the biology strengthens the story</h3>
+      <ul>
+        <li><strong>Roots</strong> represent calling, theology, values, and spiritual health.</li>
+        <li><strong>Buds</strong> represent renewed clarity and focused possibility.</li>
+        <li><strong>Flowers and pollinators</strong> represent relationships and mutual exchange with the community.</li>
+        <li><strong>Fruit and seeds</strong> represent life change that can travel and reproduce.</li>
+        <li><strong>Saplings</strong> represent impact that no longer depends entirely on the original church.</li>
+      </ul>
+    </div>
+    <div class="panel guardrail">
+      <h3>Pastoral guardrail</h3>
+      <p>Call the first stage <strong>rooted</strong> or <strong>dormant</strong>, never dead. A struggling church may still have deep faith, faithful people, and living potential. Your role is to help reveal and focus that life—not pronounce judgment on it.</p>
+    </div>
+  </div>
+
+  <div class="title-question">
+    <h3>Which working title best fits your voice?</h3>
+    <p class="subtitle">Click one, or tell me what you would change.</p>
+    <div class="title-options options">
+      <div class="option" data-choice="rooted-passion" onclick="toggleSelect(this)"><div class="letter">A</div><div class="content"><h3>From Rooted Passion to Multiplying Impact <span class="recommended">Recommended</span></h3><p>Warm, hopeful, and outcome-oriented.</p></div></div>
+      <div class="option" data-choice="life-giving-journey" onclick="toggleSelect(this)"><div class="letter">B</div><div class="content"><h3>The Life-Giving Church Journey</h3><p>Directly reinforces your systems diagnostic.</p></div></div>
+      <div class="option" data-choice="dormancy-flourishing" onclick="toggleSelect(this)"><div class="letter">C</div><div class="content"><h3>From Dormancy to Flourishing</h3><p>Simple and memorable, but less focused on community multiplication.</p></div></div>
+    </div>
+  </div>
+</div>

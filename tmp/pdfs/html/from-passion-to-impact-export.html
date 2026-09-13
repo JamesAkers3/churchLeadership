@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en" style="color-scheme: dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>From Passion to Impact</title>
+  <style>
+    html, body { margin: 0; background: #181818; }
+    body { padding: 16px; overflow: visible;  }
+  </style>
+</head>
+<body>
+<style>
+  #passion-impact-visual {
+    --pvi-ivory: #fff9ec;
+    --pvi-muted: #c9d3ca;
+    --pvi-gold: #f5c56b;
+    --pvi-gold-soft: #ffe6a8;
+    --pvi-glass: #a8e1dc;
+    --pvi-glass-deep: #4b8d89;
+    --pvi-growth: #88c77d;
+    --pvi-fracture: #df8d62;
+    --pvi-panel: rgba(255, 255, 255, 0.055);
+    --pvi-line: rgba(255, 255, 255, 0.14);
+    color: var(--pvi-ivory);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    width: 100%;
+  }
+
+  #passion-impact-visual * {
+    box-sizing: border-box;
+  }
+
+  #passion-impact-visual .pvi-stage {
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 26px;
+    background:
+      radial-gradient(circle at 12% 12%, rgba(245, 197, 107, 0.14), transparent 25%),
+      radial-gradient(circle at 88% 92%, rgba(75, 141, 137, 0.13), transparent 30%),
+      linear-gradient(145deg, #111a17 0%, #17241f 52%, #0b1210 100%);
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.24);
+    padding: 26px;
+  }
+
+  #passion-impact-visual .pvi-header {
+    max-width: 850px;
+    margin: 0 auto 22px;
+    text-align: center;
+  }
+
+  #passion-impact-visual .pvi-kicker {
+    color: var(--pvi-gold);
+    font-size: calc(var(--font-size-base) * 0.82);
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  #passion-impact-visual h2 {
+    color: var(--pvi-ivory);
+    font-size: calc(var(--font-size-base) * 2);
+    font-weight: 500;
+    letter-spacing: -0.035em;
+    margin: 7px 0 10px;
+  }
+
+  #passion-impact-visual .pvi-thesis {
+    color: var(--pvi-ivory);
+    font-size: calc(var(--font-size-base) * 1.02);
+    font-weight: 400;
+    line-height: 1.55;
+    margin: 0 auto;
+    max-width: 760px;
+  }
+
+  #passion-impact-visual .pvi-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  #passion-impact-visual .pvi-panel {
+    background: var(--pvi-panel);
+    border: 1px solid var(--pvi-line);
+    border-radius: 20px;
+    min-width: 0;
+    padding: 18px;
+  }
+
+  #passion-impact-visual .pvi-panel-head {
+    min-height: 74px;
+  }
+
+  #passion-impact-visual .pvi-state {
+    color: var(--pvi-muted);
+    font-size: calc(var(--font-size-base) * 0.75);
+    font-weight: 500;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+  }
+
+  #passion-impact-visual .pvi-formula {
+    color: var(--pvi-ivory);
+    font-size: calc(var(--font-size-base) * 1.05);
+    font-weight: 500;
+    line-height: 1.35;
+    margin-top: 6px;
+  }
+
+  #passion-impact-visual .pvi-formula strong {
+    color: var(--pvi-gold-soft);
+    font-weight: 500;
+  }
+
+  #passion-impact-visual svg {
+    display: block;
+    height: auto;
+    margin: 4px 0 2px;
+    overflow: visible;
+    width: 100%;
+  }
+
+  #passion-impact-visual .pvi-legend {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 8px;
+  }
+
+  #passion-impact-visual .pvi-key {
+    color: var(--pvi-muted);
+    font-size: calc(var(--font-size-base) * 0.72);
+    font-weight: 400;
+    line-height: 1.25;
+    min-width: 0;
+  }
+
+  #passion-impact-visual .pvi-key b {
+    color: var(--pvi-ivory);
+    display: block;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+
+  #passion-impact-visual .pvi-key::before {
+    background: var(--pvi-gold);
+    border-radius: 999px;
+    content: "";
+    display: block;
+    height: 3px;
+    margin-bottom: 7px;
+    width: 26px;
+  }
+
+  #passion-impact-visual .pvi-key.vision::before {
+    background: var(--pvi-glass);
+  }
+
+  #passion-impact-visual .pvi-key.mission::before {
+    background: linear-gradient(90deg, var(--pvi-gold), var(--pvi-glass));
+  }
+
+  #passion-impact-visual .pvi-key.impact::before {
+    background: var(--pvi-growth);
+  }
+
+  #passion-impact-visual .pvi-negative .pvi-key.vision::before,
+  #passion-impact-visual .pvi-negative .pvi-key.mission::before,
+  #passion-impact-visual .pvi-negative .pvi-key.impact::before {
+    background: var(--pvi-fracture);
+  }
+
+  #passion-impact-visual .pvi-footer {
+    border-top: 1px solid var(--pvi-line);
+    display: grid;
+    gap: 6px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    margin-top: 18px;
+    padding-top: 16px;
+  }
+
+  #passion-impact-visual .pvi-footer-main {
+    color: var(--pvi-ivory);
+    font-size: calc(var(--font-size-base) * 0.94);
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  #passion-impact-visual .pvi-scripture {
+    color: var(--pvi-muted);
+    font-size: calc(var(--font-size-base) * 0.76);
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 280px;
+    text-align: right;
+  }
+
+  @media (max-width: 760px) {
+    #passion-impact-visual .pvi-stage {
+      border-radius: 20px;
+      padding: 18px;
+    }
+
+    #passion-impact-visual .pvi-grid {
+      grid-template-columns: 1fr;
+    }
+
+    #passion-impact-visual .pvi-panel-head {
+      min-height: 0;
+    }
+
+    #passion-impact-visual .pvi-footer {
+      grid-template-columns: 1fr;
+    }
+
+    #passion-impact-visual .pvi-scripture {
+      max-width: none;
+      text-align: left;
+    }
+  }
+
+  @media (max-width: 430px) {
+    #passion-impact-visual .pvi-stage {
+      border-radius: 16px;
+      padding: 14px;
+    }
+
+    #passion-impact-visual h2 {
+      font-size: calc(var(--font-size-base) * 1.55);
+    }
+
+    #passion-impact-visual .pvi-panel {
+      border-radius: 15px;
+      padding: 14px;
+    }
+
+    #passion-impact-visual .pvi-legend {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      row-gap: 13px;
+    }
+  }
+</style>
+
+<section id="passion-impact-visual" aria-labelledby="pvi-title">
+  <div class="pvi-stage">
+    <header class="pvi-header">
+      <div class="pvi-kicker">From passion to impact</div>
+      <h2 id="pvi-title">Focused light changes what it reaches.</h2>
+      <p class="pvi-thesis">Passion creates the energy. Vision brings it into focus. Mission points it somewhere that matters. Impact happens where it lands.</p>
+    </header>
+
+    <div class="pvi-grid">
+      <article class="pvi-panel pvi-positive" aria-labelledby="pvi-aligned-title">
+        <div class="pvi-panel-head">
+          <div class="pvi-state">Aligned</div>
+          <div class="pvi-formula" id="pvi-aligned-title">PASSION + VISION × MISSION = <strong>EXTRAVAGANT RESULTS</strong></div>
+        </div>
+
+        <svg viewBox="0 0 720 300" role="img" aria-labelledby="pvi-positive-svg-title pvi-positive-svg-desc">
+          <title id="pvi-positive-svg-title">Passion focused by vision and directed by mission</title>
+          <desc id="pvi-positive-svg-desc">A broad warm light passes through a clear lens, reflects from one aligned surface, and lands on living growth.</desc>
+          <defs>
+            <radialGradient id="pvi-source-positive">
+              <stop offset="0" stop-color="#fff9db" stop-opacity="1" />
+              <stop offset="0.32" stop-color="#f8cf73" stop-opacity="0.92" />
+              <stop offset="1" stop-color="#e69e3d" stop-opacity="0" />
+            </radialGradient>
+            <linearGradient id="pvi-wide-positive" x1="0" x2="1">
+              <stop offset="0" stop-color="#f5c56b" stop-opacity="0.08" />
+              <stop offset="0.62" stop-color="#f5c56b" stop-opacity="0.32" />
+              <stop offset="1" stop-color="#ffe8aa" stop-opacity="0.62" />
+            </linearGradient>
+            <linearGradient id="pvi-beam-positive" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#fff1bc" stop-opacity="0.82" />
+              <stop offset="1" stop-color="#f5c56b" stop-opacity="1" />
+            </linearGradient>
+            <linearGradient id="pvi-glass-positive" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#d9fffa" stop-opacity="0.72" />
+              <stop offset="0.45" stop-color="#8fd2cc" stop-opacity="0.22" />
+              <stop offset="1" stop-color="#4b8d89" stop-opacity="0.58" />
+            </linearGradient>
+            <linearGradient id="pvi-mirror-positive" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f8e4b7" />
+              <stop offset="0.46" stop-color="#6f9692" />
+              <stop offset="0.58" stop-color="#f7cf75" />
+              <stop offset="1" stop-color="#27433e" />
+            </linearGradient>
+            <filter id="pvi-glow-positive" x="-60%" y="-60%" width="220%" height="220%">
+              <feGaussianBlur stdDeviation="11" result="blur" />
+              <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+              </feMerge>
+            </filter>
+            <filter id="pvi-soft-positive" x="-60%" y="-60%" width="220%" height="220%">
+              <feGaussianBlur stdDeviation="18" />
+            </filter>
+          </defs>
+
+          <ellipse cx="91" cy="144" rx="84" ry="84" fill="url(#pvi-source-positive)" filter="url(#pvi-soft-positive)" />
+          <circle cx="88" cy="144" r="27" fill="#fff5c8" filter="url(#pvi-glow-positive)" />
+          <circle cx="88" cy="144" r="12" fill="#ffffff" />
+
+          <path d="M112 118 L266 76 L266 212 L112 168 Z" fill="url(#pvi-wide-positive)" />
+          <path d="M116 144 L265 144" stroke="#ffdf92" stroke-opacity="0.58" stroke-width="3" />
+
+          <path d="M275 63 Q322 144 275 225 Q241 144 275 63 Z" fill="url(#pvi-glass-positive)" stroke="#c8f5ee" stroke-width="3" />
+          <path d="M279 74 Q305 144 279 214" fill="none" stroke="#ffffff" stroke-opacity="0.52" stroke-width="3" />
+
+          <path d="M303 138 L488 140 L488 152 L303 150 Z" fill="url(#pvi-beam-positive)" opacity="0.88" filter="url(#pvi-glow-positive)" />
+          <path d="M303 144 L488 146" stroke="#fff5c9" stroke-width="4" />
+
+          <path d="M486 142 L497 151 L660 235 L633 266 L482 155 Z" fill="url(#pvi-beam-positive)" opacity="0.77" filter="url(#pvi-glow-positive)" />
+          <path d="M488 146 L643 249" stroke="#fff5c9" stroke-width="4" />
+
+          <g transform="translate(488 146) rotate(-65)">
+            <rect x="-9" y="-66" width="18" height="132" rx="7" fill="url(#pvi-mirror-positive)" stroke="#ffe6aa" stroke-width="2" />
+            <rect x="-4" y="-56" width="3" height="112" rx="2" fill="#ffffff" opacity="0.48" />
+          </g>
+          <circle cx="488" cy="146" r="8" fill="#fff7d6" filter="url(#pvi-glow-positive)" />
+          <circle cx="488" cy="146" r="3" fill="#ffffff" />
+
+          <ellipse cx="643" cy="250" rx="70" ry="24" fill="#f5c56b" opacity="0.19" filter="url(#pvi-soft-positive)" />
+          <path d="M573 267 Q643 239 709 267" fill="none" stroke="#6d9573" stroke-opacity="0.65" stroke-width="5" stroke-linecap="round" />
+          <g fill="none" stroke="#8fd083" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M625 265 Q626 232 622 204" stroke-width="5" />
+            <path d="M623 231 Q606 220 603 207 Q618 206 627 220" stroke-width="4" />
+            <path d="M625 217 Q640 204 654 204 Q651 219 629 228" stroke-width="4" />
+            <path d="M665 267 Q664 246 668 230" stroke-width="4" />
+            <path d="M667 245 Q681 237 690 240 Q685 251 669 254" stroke-width="3" />
+            <path d="M596 268 Q594 251 588 241" stroke-width="4" />
+            <path d="M590 250 Q577 244 572 235 Q585 233 594 242" stroke-width="3" />
+          </g>
+        </svg>
+
+        <div class="pvi-legend" aria-label="Aligned visual key">
+          <div class="pvi-key"><b>Passion</b>Energy</div>
+          <div class="pvi-key vision"><b>Vision</b>Clear focus</div>
+          <div class="pvi-key mission"><b>Mission</b>One direction</div>
+          <div class="pvi-key impact"><b>Impact</b>Life takes root</div>
+        </div>
+      </article>
+
+      <article class="pvi-panel pvi-negative" aria-labelledby="pvi-fractured-title">
+        <div class="pvi-panel-head">
+          <div class="pvi-state">Fractured</div>
+          <div class="pvi-formula" id="pvi-fractured-title">PASSION − VISION ÷ MISSION = <strong>NO IMPACT</strong></div>
+        </div>
+
+        <svg viewBox="0 0 720 300" role="img" aria-labelledby="pvi-negative-svg-title pvi-negative-svg-desc">
+          <title id="pvi-negative-svg-title">Passion distorted by fractured vision and competing missions</title>
+          <desc id="pvi-negative-svg-desc">A broad warm light passes through a cracked lens, divides across several misaligned reflective surfaces, and fades without reaching the ground.</desc>
+          <defs>
+            <radialGradient id="pvi-source-negative">
+              <stop offset="0" stop-color="#fff9db" stop-opacity="1" />
+              <stop offset="0.32" stop-color="#f8cf73" stop-opacity="0.92" />
+              <stop offset="1" stop-color="#e69e3d" stop-opacity="0" />
+            </radialGradient>
+            <linearGradient id="pvi-wide-negative" x1="0" x2="1">
+              <stop offset="0" stop-color="#f5c56b" stop-opacity="0.08" />
+              <stop offset="0.62" stop-color="#f5c56b" stop-opacity="0.31" />
+              <stop offset="1" stop-color="#f1b36a" stop-opacity="0.52" />
+            </linearGradient>
+            <linearGradient id="pvi-glass-negative" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#c7e5df" stop-opacity="0.58" />
+              <stop offset="0.47" stop-color="#9c9b84" stop-opacity="0.17" />
+              <stop offset="1" stop-color="#875f50" stop-opacity="0.55" />
+            </linearGradient>
+            <linearGradient id="pvi-fade-negative" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#efb06e" stop-opacity="0.75" />
+              <stop offset="1" stop-color="#df8d62" stop-opacity="0" />
+            </linearGradient>
+            <linearGradient id="pvi-mirror-negative" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#d5c6a7" />
+              <stop offset="0.5" stop-color="#6b7f7b" />
+              <stop offset="1" stop-color="#5e3930" />
+            </linearGradient>
+            <filter id="pvi-glow-negative" x="-60%" y="-60%" width="220%" height="220%">
+              <feGaussianBlur stdDeviation="9" result="blur" />
+              <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+              </feMerge>
+            </filter>
+            <filter id="pvi-soft-negative" x="-60%" y="-60%" width="220%" height="220%">
+              <feGaussianBlur stdDeviation="18" />
+            </filter>
+          </defs>
+
+          <ellipse cx="91" cy="144" rx="84" ry="84" fill="url(#pvi-source-negative)" filter="url(#pvi-soft-negative)" />
+          <circle cx="88" cy="144" r="27" fill="#fff5c8" filter="url(#pvi-glow-negative)" />
+          <circle cx="88" cy="144" r="12" fill="#ffffff" />
+
+          <path d="M112 118 L266 76 L266 212 L112 168 Z" fill="url(#pvi-wide-negative)" />
+          <path d="M116 144 L265 144" stroke="#e9bc79" stroke-opacity="0.47" stroke-width="3" />
+
+          <path d="M275 63 Q322 144 275 225 Q241 144 275 63 Z" fill="url(#pvi-glass-negative)" stroke="#c3d7d1" stroke-opacity="0.78" stroke-width="3" />
+          <g fill="none" stroke="#f0a175" stroke-linecap="round">
+            <path d="M276 73 L291 102 L272 120 L290 143 L269 166 L285 190 L276 219" stroke-width="4" />
+            <path d="M272 119 L256 108" stroke-width="3" />
+            <path d="M269 166 L252 180" stroke-width="3" />
+            <path d="M290 143 L304 132" stroke-width="3" />
+          </g>
+
+          <path d="M303 139 L438 95" stroke="url(#pvi-fade-negative)" stroke-width="10" stroke-linecap="round" filter="url(#pvi-glow-negative)" />
+          <path d="M303 145 L468 148" stroke="url(#pvi-fade-negative)" stroke-width="8" stroke-linecap="round" filter="url(#pvi-glow-negative)" />
+          <path d="M303 151 L435 207" stroke="url(#pvi-fade-negative)" stroke-width="7" stroke-linecap="round" filter="url(#pvi-glow-negative)" />
+
+          <g transform="translate(464 86) rotate(31)">
+            <rect x="-9" y="-40" width="18" height="80" rx="6" fill="url(#pvi-mirror-negative)" stroke="#d5b989" stroke-width="2" />
+          </g>
+          <g transform="translate(497 151) rotate(-42)">
+            <rect x="-9" y="-40" width="18" height="80" rx="6" fill="url(#pvi-mirror-negative)" stroke="#d5b989" stroke-width="2" />
+          </g>
+          <g transform="translate(455 221) rotate(16)">
+            <rect x="-9" y="-40" width="18" height="80" rx="6" fill="url(#pvi-mirror-negative)" stroke="#d5b989" stroke-width="2" />
+          </g>
+
+          <path d="M467 85 L613 24" stroke="url(#pvi-fade-negative)" stroke-width="7" stroke-linecap="round" />
+          <path d="M500 150 L676 116" stroke="url(#pvi-fade-negative)" stroke-width="6" stroke-linecap="round" />
+          <path d="M457 221 L596 291" stroke="url(#pvi-fade-negative)" stroke-width="5" stroke-linecap="round" />
+
+          <path d="M572 267 Q643 250 709 267" fill="none" stroke="#58665e" stroke-opacity="0.55" stroke-width="5" stroke-linecap="round" stroke-dasharray="8 10" />
+          <circle cx="644" cy="252" r="10" fill="none" stroke="#6f756e" stroke-width="2" stroke-dasharray="3 4" />
+        </svg>
+
+        <div class="pvi-legend" aria-label="Fractured visual key">
+          <div class="pvi-key"><b>Passion</b>Still burning</div>
+          <div class="pvi-key vision"><b>Vision</b>Distorted</div>
+          <div class="pvi-key mission"><b>Missions</b>Competing</div>
+          <div class="pvi-key impact"><b>Impact</b>Never lands</div>
+        </div>
+      </article>
+    </div>
+
+    <footer class="pvi-footer">
+      <div class="pvi-footer-main">Distorted vision corrupts the focus. Competing missions divide the direction.</div>
+      <div class="pvi-scripture"><strong>The Heartbeat:</strong> Jesus knew why He came. He prayed, chose where to go next, and would not let the crowd choose His mission. See Mark 1:35–39.</div>
+    </footer>
+  </div>
+</section>
+
+</body>
+</html>

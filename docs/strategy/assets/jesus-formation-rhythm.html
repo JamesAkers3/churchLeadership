@@ -1,0 +1,224 @@
+<style>
+  #jesus-formation-rhythm {
+    --jfr-forest: light-dark(#173f35, #e5f0e7);
+    --jfr-forest-fill: light-dark(#173f35, #102a24);
+    --jfr-moss: light-dark(#5f8c52, #8fb17d);
+    --jfr-gold: light-dark(#d8a841, #f5c56b);
+    --jfr-earth: light-dark(#694f37, #d0ab82);
+    --jfr-muted: light-dark(#53665f, #c8d3cc);
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    color: var(--foreground);
+  }
+
+  #jesus-formation-rhythm * { box-sizing: border-box; }
+
+  #jesus-formation-rhythm .jfr-heading {
+    max-width: 720px;
+    margin: 0 auto 1.25rem;
+    text-align: center;
+  }
+
+  #jesus-formation-rhythm .jfr-eyebrow {
+    margin: 0 0 0.35rem;
+    color: var(--jfr-moss);
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  #jesus-formation-rhythm h2 {
+    margin: 0 0 0.5rem;
+    color: var(--jfr-forest);
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 500;
+  }
+
+  #jesus-formation-rhythm .jfr-subtitle {
+    margin: 0;
+    color: var(--jfr-muted);
+  }
+
+  #jesus-formation-rhythm .jfr-wheel {
+    position: relative;
+    width: min(100%, 700px);
+    aspect-ratio: 1;
+    margin: 0 auto;
+  }
+
+  #jesus-formation-rhythm .jfr-track {
+    position: absolute;
+    inset: 7%;
+    width: 86%;
+    height: 86%;
+    color: var(--jfr-gold);
+  }
+
+  #jesus-formation-rhythm .jfr-track circle {
+    fill: none;
+    stroke: color-mix(in srgb, currentColor 70%, transparent);
+    stroke-width: 0.45;
+  }
+
+  #jesus-formation-rhythm .jfr-track path { fill: currentColor; }
+
+  #jesus-formation-rhythm .jfr-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    display: flex;
+    width: 27%;
+    aspect-ratio: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--jfr-gold);
+    border-radius: 50%;
+    background: var(--jfr-forest-fill);
+    box-shadow: 0 0 0 10px color-mix(in srgb, var(--jfr-gold) 12%, transparent);
+    color: light-dark(#fffdf7, #fffdf7);
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+
+  #jesus-formation-rhythm .jfr-center strong {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 500;
+  }
+
+  #jesus-formation-rhythm .jfr-center span {
+    color: light-dark(#f5c56b, #f5c56b);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  #jesus-formation-rhythm .jfr-stage {
+    position: absolute;
+    z-index: 3;
+    width: 24%;
+    color: var(--jfr-muted);
+    text-align: center;
+  }
+
+  #jesus-formation-rhythm .jfr-stage::before {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 auto 0.35rem;
+    border: 2px solid var(--background);
+    border-radius: 50%;
+    background: var(--jfr-gold);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--jfr-gold) 35%, transparent);
+    content: "";
+  }
+
+  #jesus-formation-rhythm .jfr-stage strong {
+    display: block;
+    margin-bottom: 0.15rem;
+    color: var(--jfr-forest);
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 500;
+  }
+
+  #jesus-formation-rhythm .jfr-abide { left: 38%; top: 0; }
+  #jesus-formation-rhythm .jfr-share { right: 2%; top: 15%; }
+  #jesus-formation-rhythm .jfr-model { right: 0; top: 45%; }
+  #jesus-formation-rhythm .jfr-entrust { right: 11%; bottom: 2%; }
+  #jesus-formation-rhythm .jfr-send { left: 11%; bottom: 2%; }
+  #jesus-formation-rhythm .jfr-return { left: 0; top: 45%; }
+  #jesus-formation-rhythm .jfr-multiply { left: 2%; top: 15%; }
+
+  #jesus-formation-rhythm .jfr-foot {
+    margin: 0.5rem 0 0;
+    color: var(--jfr-earth);
+    text-align: center;
+  }
+
+  #jesus-formation-rhythm .jfr-foot strong {
+    color: var(--jfr-forest);
+    font-weight: 500;
+  }
+
+  @media (max-width: 620px) {
+    #jesus-formation-rhythm .jfr-heading { text-align: left; }
+
+    #jesus-formation-rhythm .jfr-wheel {
+      display: flex;
+      width: 100%;
+      aspect-ratio: auto;
+      flex-direction: column;
+    }
+
+    #jesus-formation-rhythm .jfr-track { display: none; }
+
+    #jesus-formation-rhythm .jfr-center {
+      position: relative;
+      left: auto;
+      top: auto;
+      width: 150px;
+      margin: 0 auto 1.5rem;
+      transform: none;
+    }
+
+    #jesus-formation-rhythm .jfr-stage {
+      position: relative;
+      left: auto;
+      right: auto;
+      top: auto;
+      bottom: auto;
+      width: 100%;
+      min-height: 58px;
+      padding: 0 0 1rem 2.2rem;
+      text-align: left;
+    }
+
+    #jesus-formation-rhythm .jfr-stage::before {
+      position: absolute;
+      left: 0;
+      top: 0.25rem;
+      margin: 0;
+    }
+
+    #jesus-formation-rhythm .jfr-stage:not(:last-child)::after {
+      position: absolute;
+      left: 4px;
+      top: 1rem;
+      width: 2px;
+      height: calc(100% - 0.25rem);
+      background: color-mix(in srgb, var(--jfr-gold) 40%, transparent);
+      content: "";
+    }
+
+    #jesus-formation-rhythm .jfr-foot { text-align: left; }
+  }
+</style>
+
+<section id="jesus-formation-rhythm" aria-labelledby="jfr-title">
+  <header class="jfr-heading">
+    <p class="jfr-eyebrow text-small">A pattern we see in Jesus</p>
+    <h2 id="jfr-title">The Way Jesus Formed People</h2>
+    <p class="jfr-subtitle">He called them to be with Him. Then He taught them, trusted them, sent them, and welcomed them back.</p>
+  </header>
+
+  <div class="jfr-wheel" role="img" aria-label="A clockwise formation rhythm centered on Christ: abide, share life, teach and model, equip and entrust, send together, return and rest, and multiply.">
+    <svg class="jfr-track" viewBox="0 0 100 100" aria-hidden="true">
+      <circle cx="50" cy="50" r="45"></circle>
+      <path d="M76 10.2 L80 10.8 L77.8 14.5 Z"></path>
+    </svg>
+
+    <div class="jfr-center"><strong>CHRIST</strong><span>Be With Him</span></div>
+
+    <div class="jfr-stage jfr-abide"><strong>Abide</strong><span>Stay close to Jesus</span></div>
+    <div class="jfr-stage jfr-share"><strong>Share Life</strong><span>Let trusted people know you</span></div>
+    <div class="jfr-stage jfr-model"><strong>Teach &amp; Model</strong><span>Show them what faithfulness looks like</span></div>
+    <div class="jfr-stage jfr-entrust"><strong>Equip &amp; Entrust</strong><span>Give real responsibility and authority</span></div>
+    <div class="jfr-stage jfr-send"><strong>Send Together</strong><span>Send with a partner and a clear assignment</span></div>
+    <div class="jfr-stage jfr-return"><strong>Return &amp; Rest</strong><span>Listen, correct, encourage, and breathe</span></div>
+    <div class="jfr-stage jfr-multiply"><strong>Multiply</strong><span>Trust the Holy Spirit for fruit beyond you</span></div>
+  </div>
+
+  <p class="jfr-foot"><strong>The Heartbeat:</strong> Being with Jesus comes before being sent by Jesus. This is a living rhythm, not a rigid ladder.</p>
+</section>

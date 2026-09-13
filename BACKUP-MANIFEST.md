@@ -1,0 +1,60 @@
+# Backup Manifest
+
+**Prepared:** September 13, 2026  
+**Purpose:** Preserve enough context, source material, working history, and production files for another session or collaborator to continue without starting over.
+
+## Orientation
+
+- `README.md` — brief project introduction.
+- `PROJECT-CHECKPOINT.md` — authoritative continuation point and current-state narrative.
+- `docs/superpowers/specs/2026-09-12-project-voice-and-heartbeat-design.md` — voice, theology, and editorial standard.
+- `docs/superpowers/plans/2026-09-12-project-voice-and-heartbeat-plan.md` — working plan behind the project-wide voice pass.
+
+## Strategy and frameworks
+
+- `docs/strategy/business-discovery-notes.md` — calling, intended churches, James' background, protected language, and evolving frameworks.
+- `docs/strategy/when-the-light-grows-dim-framework.md` — separate pastoral burnout and shared-weight framework.
+- `docs/strategy/assets/` — working HTML concepts and source visual assets.
+- `docs/strategy/assets/rooted-botanical-panorama-v1.png` — source illustration for the current Rooted PDF.
+
+## Research
+
+- `docs/research/jesus-three-twelve-leadership-research.md` — study of Jesus with the Three and the Twelve, their sending, and the pattern carried into Acts.
+- `docs/research/barna-research-and-resource-map.md` — research map and Barna source notes, with Jesus retained as the standard.
+
+## Current deliverables
+
+- `output/pdf/rooted-renewed-multiplying-life-v7.pdf`
+- `output/pdf/from-passion-to-impact-v7.pdf`
+- `output/pdf/christ-at-the-center-1-3-12.pdf`
+- `output/pdf/the-formation-gap.pdf`
+
+## Preserved history
+
+- `output/pdf/archive/` — every superseded PDF version and an index explaining the progression.
+- `.superpowers/brainstorm/*/content/` — early interactive visual concepts.
+- `tmp/` — PDF builders, intermediate exports, review renders, and QA working files. Although the folder is named `tmp`, it is intentionally backed up because it contains the build history needed to reproduce and refine the work.
+
+## Current production sources
+
+- `tmp/pdfs/build_rooted_v7.py` — current Rooted PDF builder.
+- `tmp/pdfs/build_passion_v7.py` — current Passion PDF builder.
+- `tmp/pdfs/build_christ_center_pdf.py` — Christ at the Center builder.
+- `tmp/pdfs/build_formation_gap_pdf.py` — Formation Gap builder.
+
+Earlier builders remain alongside them so previous visual decisions can be recovered.
+
+## Voice continuity
+
+The project-specific voice is fully recorded in the checkpoint, discovery notes, and voice-and-heartbeat specification. It should remain warm, charismatic, pastoral, familiar, encouraging, direct, and free of corporate or canned language. It should sound like a trusted big brother or mentor without superiority.
+
+The separate personal `my-voice` skill used during drafting is an external user-level skill rather than a project-created artifact. It contains private work-context information and is intentionally not copied into this public repository. The project files contain the ministry-specific voice guidance needed to continue this work faithfully.
+
+## Files intentionally excluded from version control
+
+- macOS `.DS_Store` files.
+- Python bytecode and `__pycache__` directories.
+- Local preview-server process IDs, ports, and session tokens under `.superpowers/**/state/`.
+
+These are machine-specific runtime debris, not project content.
+

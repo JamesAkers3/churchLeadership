@@ -1,0 +1,215 @@
+<style>
+  #one-three-twelve-visual {
+    --ott-forest: light-dark(#173f35, #e5f0e7);
+    --ott-forest-fill: light-dark(#173f35, #102a24);
+    --ott-moss: light-dark(#5f8c52, #8fb17d);
+    --ott-sage: light-dark(#dfe9d4, #294638);
+    --ott-olive: light-dark(#879a57, #b5c77d);
+    --ott-gold: light-dark(#d8a841, #f5c56b);
+    --ott-cream: light-dark(#fbf7ed, #17241f);
+    --ott-earth: light-dark(#694f37, #d0ab82);
+    --ott-muted: light-dark(#53665f, #c8d3cc);
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    color: var(--foreground);
+  }
+
+  #one-three-twelve-visual * { box-sizing: border-box; }
+
+  #one-three-twelve-visual .ott-heading {
+    max-width: 720px;
+    margin: 0 auto 1.25rem;
+    text-align: center;
+  }
+
+  #one-three-twelve-visual .ott-eyebrow {
+    margin: 0 0 0.35rem;
+    color: var(--ott-moss);
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  #one-three-twelve-visual h2 {
+    margin: 0 0 0.5rem;
+    color: var(--ott-forest);
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 500;
+  }
+
+  #one-three-twelve-visual .ott-subtitle {
+    margin: 0;
+    color: var(--ott-muted);
+  }
+
+  #one-three-twelve-visual .ott-subtitle strong {
+    color: var(--ott-forest);
+    font-weight: 500;
+  }
+
+  #one-three-twelve-visual .ott-figure {
+    position: relative;
+    width: min(100%, 560px);
+    aspect-ratio: 1;
+    margin: 0 auto 1rem;
+  }
+
+  #one-three-twelve-visual .ott-figure::before,
+  #one-three-twelve-visual .ott-figure::after {
+    position: absolute;
+    border-radius: 50%;
+    content: "";
+  }
+
+  #one-three-twelve-visual .ott-figure::before {
+    inset: 3%;
+    background: radial-gradient(circle, color-mix(in srgb, var(--ott-gold) 8%, transparent), transparent 64%);
+  }
+
+  #one-three-twelve-visual .ott-figure::after {
+    inset: 1%;
+    border: 1px dashed color-mix(in srgb, var(--ott-earth) 20%, transparent);
+  }
+
+  #one-three-twelve-visual .ott-ring,
+  #one-three-twelve-visual .ott-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #one-three-twelve-visual .ott-ring {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  #one-three-twelve-visual .ott-ring-12 {
+    z-index: 1;
+    width: 88%;
+    aspect-ratio: 1;
+    border: 2px solid var(--ott-moss);
+    background: color-mix(in srgb, var(--ott-sage) 54%, transparent);
+  }
+
+  #one-three-twelve-visual .ott-ring-3 {
+    z-index: 2;
+    width: 65%;
+    aspect-ratio: 1;
+    border: 2px solid var(--ott-olive);
+    background: color-mix(in srgb, var(--ott-cream) 78%, transparent);
+  }
+
+  #one-three-twelve-visual .ott-ring-1 {
+    z-index: 3;
+    width: 42%;
+    aspect-ratio: 1;
+    border: 2px solid var(--ott-gold);
+    background: color-mix(in srgb, var(--ott-gold) 10%, var(--ott-cream));
+  }
+
+  #one-three-twelve-visual .ott-ring-label {
+    margin-top: 5%;
+    color: var(--ott-forest);
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  #one-three-twelve-visual .ott-center {
+    z-index: 4;
+    display: flex;
+    width: 20%;
+    aspect-ratio: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--ott-gold);
+    background: var(--ott-forest-fill);
+    box-shadow: 0 0 0 7px color-mix(in srgb, var(--ott-gold) 15%, transparent);
+    color: light-dark(#fffdf7, #fffdf7);
+    text-align: center;
+  }
+
+  #one-three-twelve-visual .ott-center strong {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 500;
+  }
+
+  #one-three-twelve-visual .ott-center span {
+    color: light-dark(#f5c56b, #f5c56b);
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  #one-three-twelve-visual .ott-keys {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-top: 0.5rem;
+  }
+
+  #one-three-twelve-visual .ott-key {
+    padding-top: 0.75rem;
+    border-top: 3px solid var(--ott-moss);
+  }
+
+  #one-three-twelve-visual .ott-key:first-child { border-color: var(--ott-gold); }
+  #one-three-twelve-visual .ott-key:nth-child(2) { border-color: var(--ott-olive); }
+
+  #one-three-twelve-visual .ott-key strong {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: var(--ott-forest);
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 500;
+  }
+
+  #one-three-twelve-visual .ott-key span { color: var(--ott-muted); }
+
+  #one-three-twelve-visual .ott-heartbeat {
+    margin: 1.25rem 0 0;
+    color: var(--ott-earth);
+    text-align: center;
+  }
+
+  #one-three-twelve-visual .ott-heartbeat strong {
+    color: var(--ott-forest);
+    font-weight: 500;
+  }
+
+  @media (max-width: 620px) {
+    #one-three-twelve-visual .ott-heading { text-align: left; }
+    #one-three-twelve-visual .ott-figure { width: min(100%, 340px); }
+    #one-three-twelve-visual .ott-ring-label { letter-spacing: 0.02em; }
+    #one-three-twelve-visual .ott-keys { grid-template-columns: 1fr; gap: 0.9rem; }
+    #one-three-twelve-visual .ott-heartbeat { text-align: left; }
+  }
+</style>
+
+<section id="one-three-twelve-visual" aria-labelledby="ott-title">
+  <header class="ott-heading">
+    <p class="ott-eyebrow text-small">The 1 • 3 • 12 principle</p>
+    <h2 id="ott-title">Christ at the Center</h2>
+    <p class="ott-subtitle"><strong>The Three remain inside the Twelve.</strong> The numbers show widening trust and responsibility—not rank, value, or importance.</p>
+  </header>
+
+  <div class="ott-figure" role="img" aria-label="Christ at the center. Around Christ is the leader, then a trusted three, then a wider twelve which includes the three.">
+    <div class="ott-ring ott-ring-12"><span class="ott-ring-label text-small">12 • Wider Circle</span></div>
+    <div class="ott-ring ott-ring-3"><span class="ott-ring-label text-small">3 • Trusted Few</span></div>
+    <div class="ott-ring ott-ring-1"><span class="ott-ring-label text-small">1 • Lead Yourself</span></div>
+    <div class="ott-center"><strong>CHRIST</strong><span class="text-small">The Center</span></div>
+  </div>
+
+  <div class="ott-keys" aria-label="What the numbers mean">
+    <div class="ott-key"><strong>1 • Lead Yourself Under Christ</strong><span>Let Jesus lead you before you try to lead everyone else.</span></div>
+    <div class="ott-key"><strong>3 • Bring a Trusted Few Close</strong><span>Let them know you, pray with you, tell you the truth, and help carry the weight.</span></div>
+    <div class="ott-key"><strong>12 • Form a Wider Circle</strong><span>Include the three. Teach them, equip them, trust them, and give them real ministry.</span></div>
+  </div>
+
+  <p class="ott-heartbeat"><strong>At the center:</strong> Every relationship and every responsibility remains under Christ.</p>
+</section>

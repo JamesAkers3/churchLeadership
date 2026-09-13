@@ -1,0 +1,7 @@
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.py[cod]
+.superpowers/brainstorm/.last-token
+.superpowers/brainstorm/.last-port
+.superpowers/brainstorm/*/state/
