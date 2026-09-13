@@ -24,6 +24,7 @@
 
 - `docs/research/jesus-three-twelve-leadership-research.md` — study of Jesus with the Three and the Twelve, their sending, and the pattern carried into Acts.
 - `docs/research/barna-research-and-resource-map.md` — research map and Barna source notes, with Jesus retained as the standard.
+- `docs/research/scripture-translation-comparison.md` — working recommendations for how the NKJV, NIV, Amplified Bible, and The Message should serve the Scriptural foundation.
 
 ## Current deliverables
 
