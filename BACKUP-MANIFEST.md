@@ -16,6 +16,7 @@
 - `docs/strategy/business-discovery-notes.md` — calling, intended churches, James' background, protected language, and evolving frameworks.
 - `docs/strategy/calling-vision-mission-systems-discovery-draft.md` — first working guide connecting calling, vision, mission, systems, and the Life-Giving Reach Test.
 - `docs/strategy/scriptural-foundation.md` — primary and supporting Scriptures, their relationship to the work, and the pastoral guardrail around 2 Timothy 1:6–7.
+- `docs/strategy/posture-of-the-work.md` — approved engagement posture, biblical anchors, guardrails, and questions for entering a church without claiming to hold all the answers.
 - `docs/strategy/when-the-light-grows-dim-framework.md` — separate pastoral burnout and shared-weight framework.
 - `docs/strategy/assets/` — working HTML concepts and source visual assets.
 - `docs/strategy/assets/rooted-botanical-panorama-v1.png` — source illustration for the current Rooted PDF.

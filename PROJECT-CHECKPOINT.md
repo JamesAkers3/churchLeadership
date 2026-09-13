@@ -38,6 +38,7 @@ The complete working foundation is saved in `docs/strategy/scriptural-foundation
 - OPEN-WORK-AND-NEXT-STEPS.md — the living roadmap that moves the project from identifying issues to designing, practicing, evaluating, and refining life-giving systems.
 - docs/strategy/calling-vision-mission-systems-discovery-draft.md — the first working guide joining calling, vision, mission, systems, and the Life-Giving Reach Test. Use it on this endeavor before adapting it for churches.
 - docs/strategy/scriptural-foundation.md — 2 Timothy 1:6–7 as the primary Scripture, the surrounding context and guardrail, and the supporting passages on presence, power, rootedness, direction, completion, and perseverance.
+- docs/strategy/posture-of-the-work.md — the approved posture for entering a church with humility, courage, shared discernment, biblical examination, pastoral care, and practical obedience rather than a prefabricated answer.
 - docs/strategy/assets/tree-lifecycle-working-concept.html — **Rooted. Renewed. Multiplying Life.**
 - output/pdf/archive/rooted-renewed-multiplying-life-v2.pdf — the archived one-tree alternative.
 - output/pdf/archive/rooted-renewed-multiplying-life-v3.pdf — the archived five-tree vector progression.

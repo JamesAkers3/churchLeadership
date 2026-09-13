@@ -55,6 +55,8 @@ We are helping cultivate a healthy church—rooted in Christ, alive through the 
 
 The primary Scripture for this endeavor is **2 Timothy 1:6–7**. Paul reminds Timothy to tend the gift God has already placed in him, and he locates faithful ministry in the Spirit's power, love, and sound judgment rather than fear. This must never be flattened into telling an exhausted pastor to try harder. The wider foundation is recorded in `docs/strategy/scriptural-foundation.md`.
 
+The approved **Posture of the Work** is saved in `docs/strategy/posture-of-the-work.md`. James will not enter a church pretending to have God's answer for its leaders. He will bring experience, questions, an outside perspective, and the courage to help bring difficult things into the light. The pastor and leadership team bring their calling, history, relationships, and knowledge of their people. Together, with Scripture open and the Holy Spirit leading, they will listen, discern, and build a faithful next step.
+
 Jesus is the vine. Apart from Him, we can do nothing. The Holy Spirit is the living water who brings life from within. The Father is the gardener who tends the branches and prepares them to bear more fruit. Good soil receives the Word and allows it to take root.
 
 Biblical anchors: John 15:1–5; John 7:37–39; Matthew 13:23.

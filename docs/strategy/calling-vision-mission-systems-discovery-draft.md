@@ -26,6 +26,12 @@ Before we ask what we want to build, we begin with Jesus.
 
 **2 Timothy 1:6–7** is the primary Scripture gathering this work together. It holds gift, calling, spiritual empowerment, love, and sound judgment in the same place. The supporting passages and the guardrail against using “fan into flame” as pressure on an exhausted pastor are recorded in `docs/strategy/scriptural-foundation.md`.
 
+### The posture of the work
+
+We do not enter a church assuming we already know what God is saying to its leaders. We bring experience, questions, an outside perspective, and a willingness to name what may be difficult to see from the inside. The pastor and leadership team bring their calling, history, relationships, and knowledge of their people. Together, with Scripture open and the Holy Spirit leading, we listen for where the Lord is directing us.
+
+The full approved statement, biblical anchors, and guardrails are saved in `docs/strategy/posture-of-the-work.md`.
+
 ## At a Glance
 
 | Part | What it helps us understand | The central question | What it should produce |
