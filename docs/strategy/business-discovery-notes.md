@@ -211,6 +211,16 @@ This is the plumb line for the work. It gathers renewed pastoral strength, share
 
 This gives the vision a center. The fuller picture can still include healthier systems, clearer communication, deeper community relationships, and faithful service beyond the church—but those things must grow from leaders learning to discern and carry the work together.
 
+## The working vision
+
+> **We see churches on mission with Jesus—loving extravagantly inside and outside their doors, leading from a place of health, and giving their time and strength to what is truly life giving.**
+>
+> **They know their communities, show up intentionally, and walk alongside people with both support and honest challenge. As they listen, serve, and build trust, those who are lost encounter the saving grace of Jesus, and the church itself continues becoming more like Him.**
+
+This vision holds two movements together: people outside the church encounter Jesus, and the church itself continues to be formed into His likeness. The church does not stand above the community as though it has nothing left to learn. It moves toward people with grace and truth, listens, serves, builds trust, and remains willing to be challenged and changed.
+
+This is the approved working vision. We may refine its length for public use later without weakening either movement.
+
 ## The working mission
 
 > With Scripture open and the Holy Spirit leading, we walk alongside pastors and churches to ask honest questions, bring unhealthy systems into the light, and build life-giving practices that help them carry their calling with clarity.
@@ -313,7 +323,7 @@ The working rhythm is **Listen → Discern → Design → Practice → Evaluate 
 - A Leaders Guide explaining all four current visuals and how to walk a pastor, staff, or board through each message
 - A reusable Community Engagement Worksheet that can be filled in with the particular people, history, needs, relationships, assets, and opportunities surrounding any church
 - Central Scriptures for this endeavor
-- Final public-facing mission wording and vision
+- Final public-facing mission and vision wording
 - The name and visual identity of the brand
 - Healthy AI use and clear boundaries around pastoral, relational, theological, and sacred responsibilities
 - Practical tools for measuring whether a ministry or system is truly life giving

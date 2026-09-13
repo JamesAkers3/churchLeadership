@@ -209,7 +209,7 @@ Before we ask churches to clarify their foundation, we need to keep building our
 
 1. Continue refining the Scriptural foundation, with 2 Timothy 1:6–7 as the primary anchor.
 2. Refine the approved working mission into final public-facing language.
-3. Develop James' vision from the approved non-negotiable outcome.
+3. Refine the approved working vision into final public-facing language.
 4. Clarify the promise and boundaries of the work.
 5. Establish the brand: name, colors, typography, logo, email signature, and visual language.
 6. Design the service journey from first conversation through evaluation and follow-through.

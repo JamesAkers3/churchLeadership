@@ -99,7 +99,15 @@ The non-negotiable outcome is:
 
 This is the plumb line for the work. It gathers renewed pastoral strength, shared discernment, practical obedience, and shared ministry without making us the answer. A healthy engagement should leave the church more dependent on Christ, more attentive to the Holy Spirit, and less dependent on us.
 
-This is an anchor for the vision, not yet the final vision statement.
+### Approved working vision
+
+> **We see churches on mission with Jesus—loving extravagantly inside and outside their doors, leading from a place of health, and giving their time and strength to what is truly life giving.**
+>
+> **They know their communities, show up intentionally, and walk alongside people with both support and honest challenge. As they listen, serve, and build trust, those who are lost encounter the saving grace of Jesus, and the church itself continues becoming more like Him.**
+
+This vision holds two movements together: people outside the church encounter Jesus, and the church itself continues to be formed into His likeness. The church does not stand above the community as though it has nothing left to learn. It moves toward people with grace and truth, listens, serves, builds trust, and remains willing to be challenged and changed.
+
+This is the approved working vision. We may refine its length for public use later without weakening either movement.
 
 ### Working statement
 
