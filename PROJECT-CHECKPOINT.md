@@ -25,6 +25,7 @@ We are helping cultivate a healthy church—rooted in Christ, alive through the 
 - docs/strategy/when-the-light-grows-dim-framework.md — the separate work on pastoral burnout, compassion fatigue, trauma-related stress, moral injury, whole-person care, church responsibility, shared weight, and safe discernment about returning.
 - output/pdf/archive/README.md — the index of preserved older and superseded PDF versions. The current working PDFs remain directly in `output/pdf/`.
 - OPEN-WORK-AND-NEXT-STEPS.md — the living roadmap that moves the project from identifying issues to designing, practicing, evaluating, and refining life-giving systems.
+- docs/strategy/calling-vision-mission-systems-discovery-draft.md — the first working guide joining calling, vision, mission, systems, and the Life-Giving Reach Test. Use it on this endeavor before adapting it for churches.
 - docs/strategy/assets/tree-lifecycle-working-concept.html — **Rooted. Renewed. Multiplying Life.**
 - output/pdf/archive/rooted-renewed-multiplying-life-v2.pdf — the archived one-tree alternative.
 - output/pdf/archive/rooted-renewed-multiplying-life-v3.pdf — the archived five-tree vector progression.

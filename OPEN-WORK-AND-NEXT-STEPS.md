@@ -216,3 +216,7 @@ Before we ask churches to clarify their foundation, we need to keep building our
 7. Determine pricing, pilot engagements, agreements, and the basic administration needed to serve churches well.
 
 This is not starting over. Jesus called the disciples to be with Him before He sent them. We are making sure the work has roots before asking it to bear more weight.
+
+## Current Working Draft
+
+The first draft of the combined discovery process is saved as `docs/strategy/calling-vision-mission-systems-discovery-draft.md`. It joins calling, vision, mission, systems, and the Life-Giving Reach Test in one process. We will work through it for this endeavor before adapting it for churches.
