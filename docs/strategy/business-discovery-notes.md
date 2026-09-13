@@ -256,6 +256,22 @@ Biblical anchors: John 15:1–5; Mark 4:26–32.
 - Leaders are formed and trusted with real ministry.
 - Pastors no longer carry alone what Jesus designed His body to carry together.
 
+## From diagnosis to practice
+
+> **We have learned how to name what is happening. Now we need to help churches know what to do next.**
+
+We have done meaningful work to identify issues, but we have not yet built the systems churches can put in place to address them. Diagnosis is necessary, but it cannot be the finish line.
+
+Every framework should move through the same questions:
+
+1. What are we seeing?
+2. Why might it be happening?
+3. What does Jesus show us?
+4. What life-giving system could address it?
+5. How will the church practice, evaluate, and refine it?
+
+The working rhythm is **Listen → Discern → Design → Practice → Evaluate → Refine**. The full systems roadmap is saved in `OPEN-WORK-AND-NEXT-STEPS.md`.
+
 ## Still to work through
 
 - A Leaders Guide explaining all four current visuals and how to walk a pastor, staff, or board through each message

@@ -24,6 +24,7 @@ We are helping cultivate a healthy church—rooted in Christ, alive through the 
 - docs/research/barna-research-and-resource-map.md — a source-backed map of the Barna free plan, the research that directly supports this calling, the resources worth using first, and the guardrail that Barna helps us read the landscape while Jesus remains the standard.
 - docs/strategy/when-the-light-grows-dim-framework.md — the separate work on pastoral burnout, compassion fatigue, trauma-related stress, moral injury, whole-person care, church responsibility, shared weight, and safe discernment about returning.
 - output/pdf/archive/README.md — the index of preserved older and superseded PDF versions. The current working PDFs remain directly in `output/pdf/`.
+- OPEN-WORK-AND-NEXT-STEPS.md — the living roadmap that moves the project from identifying issues to designing, practicing, evaluating, and refining life-giving systems.
 - docs/strategy/assets/tree-lifecycle-working-concept.html — **Rooted. Renewed. Multiplying Life.**
 - output/pdf/archive/rooted-renewed-multiplying-life-v2.pdf — the archived one-tree alternative.
 - output/pdf/archive/rooted-renewed-multiplying-life-v3.pdf — the archived five-tree vector progression.
@@ -176,6 +177,28 @@ The framework begins with the pastor, but it does not stop there. It asks what h
 It remains non-diagnostic. Medical and mental-health decisions belong to qualified professionals. The framework includes clear confidentiality, referral, and crisis boundaries.
 
 ## What comes next
+
+### From diagnosis to practice
+
+> **We have learned how to name what is happening. Now we need to help churches know what to do next.**
+
+The work so far has given us language and pictures for the pressures pastors and churches are facing. The next phase must translate each diagnosis into a simple, Christ-centered, life-giving system that a church can practice, evaluate, and sustain.
+
+Every framework must answer:
+
+1. What are we seeing?
+2. Why might it be happening?
+3. What does Jesus show us?
+4. What life-giving system could address it?
+5. How will the church practice, evaluate, and refine it?
+
+The working rhythm is:
+
+**Listen → Discern → Design → Practice → Evaluate → Refine**
+
+Christ remains at the center of the entire rhythm. The systems do not create life. They make room for people to faithfully participate in what Jesus is already doing.
+
+The complete map of open systems and deliverables is saved in `OPEN-WORK-AND-NEXT-STEPS.md`.
 
 ### Immediate next deliverable: Leaders Guide
 

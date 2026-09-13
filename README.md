@@ -8,6 +8,8 @@ Read [`PROJECT-CHECKPOINT.md`](PROJECT-CHECKPOINT.md) first. It records the hear
 
 Then use [`BACKUP-MANIFEST.md`](BACKUP-MANIFEST.md) as the map of the repository.
 
+Use [`OPEN-WORK-AND-NEXT-STEPS.md`](OPEN-WORK-AND-NEXT-STEPS.md) for the living roadmap from diagnosis to practical, life-giving systems.
+
 ## The heartbeat
 
 > **Everything we create must be Christ-centered—not merely Christ-adjacent.**
@@ -26,4 +28,3 @@ Older visual directions remain preserved in `output/pdf/archive/`. Version numbe
 ## Continuing the work
 
 The next major deliverable is a practical Leaders Guide for the four visuals. After that, build the adaptable Community Engagement Worksheet. James' own mission, vision, central Scriptures, and brand foundation still need to be established before those tools are used to create the same foundation for other churches.
-

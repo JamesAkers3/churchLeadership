@@ -7,6 +7,7 @@
 
 - `README.md` — brief project introduction.
 - `PROJECT-CHECKPOINT.md` — authoritative continuation point and current-state narrative.
+- `OPEN-WORK-AND-NEXT-STEPS.md` — living roadmap from diagnosis to practical systems, tools, and implementation rhythms.
 - `docs/superpowers/specs/2026-09-12-project-voice-and-heartbeat-design.md` — voice, theology, and editorial standard.
 - `docs/superpowers/plans/2026-09-12-project-voice-and-heartbeat-plan.md` — working plan behind the project-wide voice pass.
 
@@ -57,4 +58,3 @@ The separate personal `my-voice` skill used during drafting is an external user-
 - Local preview-server process IDs, ports, and session tokens under `.superpowers/**/state/`.
 
 These are machine-specific runtime debris, not project content.
-
