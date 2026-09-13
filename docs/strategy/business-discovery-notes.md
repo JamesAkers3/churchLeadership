@@ -205,17 +205,27 @@ The brand will include colors, typography, a logo, an email signature, and a con
 
 ## The working mission
 
-> With Scripture open and the Holy Spirit leading, we walk alongside pastors and churches to ask honest questions, bring unhealthy systems into the light, build life-giving practices, and connect leaders with trusted resources and ministry partners.
+> With Scripture open and the Holy Spirit leading, we walk alongside pastors and churches to ask honest questions, bring unhealthy systems into the light, and build life-giving practices that help them carry their calling with clarity.
 >
-> We help pastors lead from renewed strength, equip people to share the work of ministry, understand the communities around them, and build sustainable relationships with those already serving people who are hungry, thirsty, unhoused, addicted, incarcerated, abused, orphaned, or widowed—locally, nationally, and around the world.
+> We help pastors lead from renewed strength, equip people to share the work of ministry, understand the communities around them, and take faithful, sustainable steps toward serving people who are hungry, thirsty, unhoused, addicted, incarcerated, abused, orphaned, or widowed—locally, nationally, and around the world. When it serves the church and its calling, this may include connecting leaders with trusted resources and ministry partners already doing the work well.
 >
-> Our role is not to recreate every ministry. It is to help churches recognize their calling, prepare their people, and form trusted partnerships with those already doing the work well.
+> Our role is not to arrive with every answer or recreate every ministry. It is to help churches recognize their calling, prepare their people, build healthy systems, and follow where the Lord is directing them.
 
-This defines our lane. We are an advisor, facilitator, connector, and encourager. We do not replace the local church, and we do not try to duplicate every ministry a church may need. We help leaders recognize what God has entrusted to them, build the systems and relationships needed to carry it, and connect with trusted people who are already serving well.
+This defines our lane. We are an advisor, facilitator, connector, and encourager. We do not replace the local church, and we do not try to duplicate every ministry a church may need. We help leaders recognize what God has entrusted to them, build the systems and relationships needed to carry it, and take the next faithful step.
 
 > **Churches should leave with relationships, not merely recommendations.**
 
 This mission is approved as a working foundation. It can be shortened and refined for public use after the vision is clear, but its meaning should not be thinned out.
+
+### Relationships that grow from the work
+
+We are not starting by building a network. We are starting by faithfully serving the pastor and church in front of us.
+
+As the work grows, relationships will grow with it. Churches may discover trusted ministry partners, pastors may find other leaders who understand what they are carrying, and healthy connections may begin forming across communities.
+
+If God allows those relationships to become a larger ecosystem, we will steward it faithfully. But the network is not the product, the requirement, or the center of the work. It is something that may grow naturally from serving people well.
+
+A church can receive honest counsel, practical tools, and meaningful help without joining anything. Connection is available when it gives life; it is never the price of receiving help.
 
 ## Systems should give life
 

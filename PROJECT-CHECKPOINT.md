@@ -85,17 +85,29 @@ Version numbers belong in filenames and PDF metadata only. They should never app
 
 ## The approved working mission
 
-> With Scripture open and the Holy Spirit leading, we walk alongside pastors and churches to ask honest questions, bring unhealthy systems into the light, build life-giving practices, and connect leaders with trusted resources and ministry partners.
+> With Scripture open and the Holy Spirit leading, we walk alongside pastors and churches to ask honest questions, bring unhealthy systems into the light, and build life-giving practices that help them carry their calling with clarity.
 >
-> We help pastors lead from renewed strength, equip people to share the work of ministry, understand the communities around them, and build sustainable relationships with those already serving people who are hungry, thirsty, unhoused, addicted, incarcerated, abused, orphaned, or widowed—locally, nationally, and around the world.
+> We help pastors lead from renewed strength, equip people to share the work of ministry, understand the communities around them, and take faithful, sustainable steps toward serving people who are hungry, thirsty, unhoused, addicted, incarcerated, abused, orphaned, or widowed—locally, nationally, and around the world. When it serves the church and its calling, this may include connecting leaders with trusted resources and ministry partners already doing the work well.
 >
-> Our role is not to recreate every ministry. It is to help churches recognize their calling, prepare their people, and form trusted partnerships with those already doing the work well.
+> Our role is not to arrive with every answer or recreate every ministry. It is to help churches recognize their calling, prepare their people, build healthy systems, and follow where the Lord is directing them.
 
-The lane is clear: **advisor, facilitator, connector, and encourager**. This work does not replace the local church or recreate the ministries already serving people well.
+The lane is clear: **advisor, facilitator, connector, and encourager**. This work does not replace the local church or recreate the ministries already serving people well. Connection is one way we may serve; it is not the center of the work.
 
 > **Churches should leave with relationships, not merely recommendations.**
 
 This is the approved working foundation. It still needs to be shortened and refined into final public-facing language after the vision is clear.
+
+### Relationships that grow from the work
+
+We are not starting by building a network. We are starting by faithfully serving the pastor and church in front of us. As the work grows, relationships may grow with it. If God allows those relationships to become a larger ecosystem, we will steward it faithfully. But the network is not the product, the requirement, or the center of the work. A church can receive meaningful help without joining anything.
+
+## Permission to challenge
+
+James has explicitly invited honest challenge throughout this project. Ideas should not be protected simply because they are familiar, successful, profitable, or our own.
+
+> **We will bring every idea into the light of Scripture, examine it through the life, teachings, character, and methods of Jesus, and ask whether it is producing healthy, life-giving fruit.**
+
+Challenge must be direct and supported by a clear reason. It must distinguish Scripture from preference, and it must never pretend that the advisor has heard from God on someone else's behalf. The purpose is discernment and faithfulness—not winning an argument or displaying expertise.
 
 ## The 1–3–12 pattern
 

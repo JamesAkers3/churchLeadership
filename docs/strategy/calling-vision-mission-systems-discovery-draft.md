@@ -121,13 +121,23 @@ Mission describes what we do now. It gives the calling and vision hands and feet
 
 ### Approved working mission for this endeavor
 
-> With Scripture open and the Holy Spirit leading, we walk alongside pastors and churches to ask honest questions, bring unhealthy systems into the light, build life-giving practices, and connect leaders with trusted resources and ministry partners.
+> With Scripture open and the Holy Spirit leading, we walk alongside pastors and churches to ask honest questions, bring unhealthy systems into the light, and build life-giving practices that help them carry their calling with clarity.
 >
-> We help pastors lead from renewed strength, equip people to share the work of ministry, understand the communities around them, and build sustainable relationships with those already serving people who are hungry, thirsty, unhoused, addicted, incarcerated, abused, orphaned, or widowed—locally, nationally, and around the world.
+> We help pastors lead from renewed strength, equip people to share the work of ministry, understand the communities around them, and take faithful, sustainable steps toward serving people who are hungry, thirsty, unhoused, addicted, incarcerated, abused, orphaned, or widowed—locally, nationally, and around the world. When it serves the church and its calling, this may include connecting leaders with trusted resources and ministry partners already doing the work well.
 >
-> Our role is not to recreate every ministry. It is to help churches recognize their calling, prepare their people, and form trusted partnerships with those already doing the work well.
+> Our role is not to arrive with every answer or recreate every ministry. It is to help churches recognize their calling, prepare their people, build healthy systems, and follow where the Lord is directing them.
 
-This establishes the lane for the work: **advisor, facilitator, connector, and encourager**. We are not replacing the local church, and we are not competing with ministries already serving people well. Churches should leave with relationships, not merely recommendations.
+This establishes the lane for the work: **advisor, facilitator, connector, and encourager**. We are not replacing the local church, and we are not competing with ministries already serving people well. Connection is one way we may serve; it is not the center of the work.
+
+### Relationships that grow from the work
+
+We are not starting by building a network. We are starting by faithfully serving the pastor and church in front of us.
+
+As the work grows, relationships will grow with it. Churches may discover trusted ministry partners, pastors may find other leaders who understand what they are carrying, and healthy connections may begin forming across communities.
+
+If God allows those relationships to become a larger ecosystem, we will steward it faithfully. But the network is not the product, the requirement, or the center of the work. It is something that may grow naturally from serving people well.
+
+Churches should leave with relationships, not merely recommendations—but participation in a larger community will never be the price of receiving help.
 
 This is the approved working mission, not yet the final public-facing wording. We can shorten it later without losing its meaning.
 

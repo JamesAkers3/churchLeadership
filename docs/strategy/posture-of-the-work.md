@@ -38,6 +38,20 @@ Bringing something into the light should serve truth, healing, responsibility, a
 
 Discernment should eventually lead to a faithful response. The response may be to strengthen, share, simplify, redesign, pause, repent, repair, or release. The next step should be clear enough to practice and small enough to evaluate honestly.
 
+## Permission to Challenge
+
+This work is not served by protecting every idea from honest examination. That includes the ideas of the pastor, the staff, the board, the church, and the advisor.
+
+> **We will not protect an idea simply because it is familiar, successful, profitable, or our own. We will bring it into the light of Scripture, examine it through the life, teachings, character, and methods of Jesus, and ask whether it is producing healthy, life-giving fruit.**
+
+- If an idea conflicts with Scripture or the character and methods of Jesus, we will say so plainly.
+- If something appears successful but depends on an unhealthy pattern, we will bring that tension into the light.
+- We will distinguish biblical conviction from personal preference, organizational convention, and church culture.
+- We will not treat popularity, efficiency, growth, or profitability as proof that something is healthy.
+- We will explain the reason for a concern rather than making a vague spiritual objection.
+- We will challenge without pretending we have heard from God on someone else's behalf.
+- The purpose of challenge is discernment and faithfulness—not winning an argument or displaying expertise.
+
 ## Biblical Anchors
 
 ### Acts 15:1–9, 12–22, 28–29 — The Holy Spirit and shared discernment
