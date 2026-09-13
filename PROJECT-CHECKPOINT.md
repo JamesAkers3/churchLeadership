@@ -83,6 +83,20 @@ Version numbers belong in filenames and PDF metadata only. They should never app
 
 > **Some pastors are not losing their passion. They are losing the capacity to carry it.**
 
+## The approved working mission
+
+> With Scripture open and the Holy Spirit leading, we walk alongside pastors and churches to ask honest questions, bring unhealthy systems into the light, build life-giving practices, and connect leaders with trusted resources and ministry partners.
+>
+> We help pastors lead from renewed strength, equip people to share the work of ministry, understand the communities around them, and build sustainable relationships with those already serving people who are hungry, thirsty, unhoused, addicted, incarcerated, abused, orphaned, or widowed—locally, nationally, and around the world.
+>
+> Our role is not to recreate every ministry. It is to help churches recognize their calling, prepare their people, and form trusted partnerships with those already doing the work well.
+
+The lane is clear: **advisor, facilitator, connector, and encourager**. This work does not replace the local church or recreate the ministries already serving people well.
+
+> **Churches should leave with relationships, not merely recommendations.**
+
+This is the approved working foundation. It still needs to be shortened and refined into final public-facing language after the vision is clear.
+
 ## The 1–3–12 pattern
 
 The clearest expression is:
@@ -234,7 +248,7 @@ Build a reusable worksheet that can be adapted to any church and the particular 
 The foundation for the endeavor itself still matters:
 
 1. Continue refining the Scriptural foundation, with 2 Timothy 1:6–7 as the primary anchor.
-2. Write James' mission.
+2. Refine the approved working mission into final public-facing language.
 3. Write James' vision.
 4. Build the voice and visual brand around what is already true.
 

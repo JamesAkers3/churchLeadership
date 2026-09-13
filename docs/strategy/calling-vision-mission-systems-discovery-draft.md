@@ -119,6 +119,18 @@ Mission describes what we do now. It gives the calling and vision hands and feet
 - What work will we not do, even if someone is willing to pay for it?
 - What should someone see us doing on an ordinary Monday that proves this mission is real?
 
+### Approved working mission for this endeavor
+
+> With Scripture open and the Holy Spirit leading, we walk alongside pastors and churches to ask honest questions, bring unhealthy systems into the light, build life-giving practices, and connect leaders with trusted resources and ministry partners.
+>
+> We help pastors lead from renewed strength, equip people to share the work of ministry, understand the communities around them, and build sustainable relationships with those already serving people who are hungry, thirsty, unhoused, addicted, incarcerated, abused, orphaned, or widowed—locally, nationally, and around the world.
+>
+> Our role is not to recreate every ministry. It is to help churches recognize their calling, prepare their people, and form trusted partnerships with those already doing the work well.
+
+This establishes the lane for the work: **advisor, facilitator, connector, and encourager**. We are not replacing the local church, and we are not competing with ministries already serving people well. Churches should leave with relationships, not merely recommendations.
+
+This is the approved working mission, not yet the final public-facing wording. We can shorten it later without losing its meaning.
+
 ### Working statement
 
 > We serve __________________________________________________________________

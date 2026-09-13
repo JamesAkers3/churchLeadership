@@ -203,6 +203,20 @@ The order for this work should be:
 
 The brand will include colors, typography, a logo, an email signature, and a consistent visual direction. It should reveal what is already true at the center. It should never become image management or a substitute for substance.
 
+## The working mission
+
+> With Scripture open and the Holy Spirit leading, we walk alongside pastors and churches to ask honest questions, bring unhealthy systems into the light, build life-giving practices, and connect leaders with trusted resources and ministry partners.
+>
+> We help pastors lead from renewed strength, equip people to share the work of ministry, understand the communities around them, and build sustainable relationships with those already serving people who are hungry, thirsty, unhoused, addicted, incarcerated, abused, orphaned, or widowed—locally, nationally, and around the world.
+>
+> Our role is not to recreate every ministry. It is to help churches recognize their calling, prepare their people, and form trusted partnerships with those already doing the work well.
+
+This defines our lane. We are an advisor, facilitator, connector, and encourager. We do not replace the local church, and we do not try to duplicate every ministry a church may need. We help leaders recognize what God has entrusted to them, build the systems and relationships needed to carry it, and connect with trusted people who are already serving well.
+
+> **Churches should leave with relationships, not merely recommendations.**
+
+This mission is approved as a working foundation. It can be shortened and refined for public use after the vision is clear, but its meaning should not be thinned out.
+
 ## Systems should give life
 
 I want to help pastors and staff use systems without becoming victims of those systems.
@@ -281,7 +295,7 @@ The working rhythm is **Listen → Discern → Design → Practice → Evaluate 
 - A Leaders Guide explaining all four current visuals and how to walk a pastor, staff, or board through each message
 - A reusable Community Engagement Worksheet that can be filled in with the particular people, history, needs, relationships, assets, and opportunities surrounding any church
 - Central Scriptures for this endeavor
-- Mission and vision
+- Final public-facing mission wording and vision
 - The name and visual identity of the brand
 - Healthy AI use and clear boundaries around pastoral, relational, theological, and sacred responsibilities
 - Practical tools for measuring whether a ministry or system is truly life giving

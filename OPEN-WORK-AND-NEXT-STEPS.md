@@ -208,7 +208,7 @@ This should include:
 Before we ask churches to clarify their foundation, we need to keep building our own:
 
 1. Continue refining the Scriptural foundation, with 2 Timothy 1:6–7 as the primary anchor.
-2. Write James' mission.
+2. Refine the approved working mission into final public-facing language.
 3. Write James' vision.
 4. Clarify the promise and boundaries of the work.
 5. Establish the brand: name, colors, typography, logo, email signature, and visual language.
