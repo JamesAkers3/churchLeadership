@@ -91,6 +91,16 @@ Vision gives people a picture of a faithful future. It is not a guarantee about 
 - What will we be trusted for?
 - What might faithfulness look like even if growth is slower or less visible than expected?
 
+### Approved vision anchor for this endeavor
+
+The non-negotiable outcome is:
+
+> **When we finish an engagement, the pastor and church should be better able to hear where the Lord is leading, take their next faithful step together, and carry the work without everything resting on one person.**
+
+This is the plumb line for the work. It gathers renewed pastoral strength, shared discernment, practical obedience, and shared ministry without making us the answer. A healthy engagement should leave the church more dependent on Christ, more attentive to the Holy Spirit, and less dependent on us.
+
+This is an anchor for the vision, not yet the final vision statement.
+
 ### Working statement
 
 > We see ____________________________________________________________________

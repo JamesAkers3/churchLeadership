@@ -203,6 +203,14 @@ The order for this work should be:
 
 The brand will include colors, typography, a logo, an email signature, and a consistent visual direction. It should reveal what is already true at the center. It should never become image management or a substitute for substance.
 
+## The non-negotiable outcome
+
+> **When we finish an engagement, the pastor and church should be better able to hear where the Lord is leading, take their next faithful step together, and carry the work without everything resting on one person.**
+
+This is the plumb line for the work. It gathers renewed pastoral strength, shared discernment, practical obedience, and shared ministry without making us the answer. A healthy engagement should leave the church more dependent on Christ, more attentive to the Holy Spirit, and less dependent on us.
+
+This gives the vision a center. The fuller picture can still include healthier systems, clearer communication, deeper community relationships, and faithful service beyond the church—but those things must grow from leaders learning to discern and carry the work together.
+
 ## The working mission
 
 > With Scripture open and the Holy Spirit leading, we walk alongside pastors and churches to ask honest questions, bring unhealthy systems into the light, and build life-giving practices that help them carry their calling with clarity.

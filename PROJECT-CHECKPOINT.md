@@ -97,6 +97,16 @@ The lane is clear: **advisor, facilitator, connector, and encourager**. This wor
 
 This is the approved working foundation. It still needs to be shortened and refined into final public-facing language after the vision is clear.
 
+## The approved vision anchor
+
+The non-negotiable outcome is:
+
+> **When we finish an engagement, the pastor and church should be better able to hear where the Lord is leading, take their next faithful step together, and carry the work without everything resting on one person.**
+
+This is the plumb line for the work. It gathers renewed pastoral strength, shared discernment, practical obedience, and shared ministry without making us the answer. A healthy engagement should leave the church more dependent on Christ, more attentive to the Holy Spirit, and less dependent on us.
+
+This is an anchor for the vision, not yet the final public-facing vision statement.
+
 ### Relationships that grow from the work
 
 We are not starting by building a network. We are starting by faithfully serving the pastor and church in front of us. As the work grows, relationships may grow with it. If God allows those relationships to become a larger ecosystem, we will steward it faithfully. But the network is not the product, the requirement, or the center of the work. A church can receive meaningful help without joining anything.
@@ -261,7 +271,7 @@ The foundation for the endeavor itself still matters:
 
 1. Continue refining the Scriptural foundation, with 2 Timothy 1:6–7 as the primary anchor.
 2. Refine the approved working mission into final public-facing language.
-3. Write James' vision.
+3. Develop James' vision from the approved non-negotiable outcome.
 4. Build the voice and visual brand around what is already true.
 
 The brand will eventually include colors, typography, a logo, an email signature, and a consistent visual language.
