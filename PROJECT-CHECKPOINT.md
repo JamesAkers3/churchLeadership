@@ -17,6 +17,16 @@ Better does not mean bigger, busier, richer, or more impressive. It means health
 
 We are helping cultivate a healthy church—rooted in Christ, alive through the Holy Spirit, tended by the Father, and bearing fruit that reaches people with the saving grace of Jesus.
 
+### Primary Scripture
+
+The primary Scripture gathering this work together is **2 Timothy 1:6–7**. The gift comes from God. The power comes from the Holy Spirit. Love and sound judgment shape how the gift is carried. This must never be used to tell an exhausted pastor simply to try harder.
+
+The supporting movement is:
+
+**Presence → Power → Rootedness → Direction → Completion → Perseverance**
+
+The complete working foundation is saved in `docs/strategy/scriptural-foundation.md`.
+
 ## What is saved
 
 - docs/strategy/business-discovery-notes.md — the calling, the churches James wants to serve, his background, the 1–3–12 pattern, the passion-to-impact idea, the tree picture, and the foundation still to be built.
@@ -26,6 +36,7 @@ We are helping cultivate a healthy church—rooted in Christ, alive through the 
 - output/pdf/archive/README.md — the index of preserved older and superseded PDF versions. The current working PDFs remain directly in `output/pdf/`.
 - OPEN-WORK-AND-NEXT-STEPS.md — the living roadmap that moves the project from identifying issues to designing, practicing, evaluating, and refining life-giving systems.
 - docs/strategy/calling-vision-mission-systems-discovery-draft.md — the first working guide joining calling, vision, mission, systems, and the Life-Giving Reach Test. Use it on this endeavor before adapting it for churches.
+- docs/strategy/scriptural-foundation.md — 2 Timothy 1:6–7 as the primary Scripture, the surrounding context and guardrail, and the supporting passages on presence, power, rootedness, direction, completion, and perseverance.
 - docs/strategy/assets/tree-lifecycle-working-concept.html — **Rooted. Renewed. Multiplying Life.**
 - output/pdf/archive/rooted-renewed-multiplying-life-v2.pdf — the archived one-tree alternative.
 - output/pdf/archive/rooted-renewed-multiplying-life-v3.pdf — the archived five-tree vector progression.
@@ -220,7 +231,7 @@ Build a reusable worksheet that can be adapted to any church and the particular 
 
 The foundation for the endeavor itself still matters:
 
-1. Choose the central Scriptures.
+1. Continue refining the Scriptural foundation, with 2 Timothy 1:6–7 as the primary anchor.
 2. Write James' mission.
 3. Write James' vision.
 4. Build the voice and visual brand around what is already true.

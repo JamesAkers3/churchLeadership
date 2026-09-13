@@ -22,6 +22,10 @@ Before we ask what we want to build, we begin with Jesus.
 
 > **Jesus remains the standard—not church trends, organizational growth, attendance, branding, efficiency, or financial success.**
 
+### Primary Scripture for this endeavor
+
+**2 Timothy 1:6–7** is the primary Scripture gathering this work together. It holds gift, calling, spiritual empowerment, love, and sound judgment in the same place. The supporting passages and the guardrail against using “fan into flame” as pressure on an exhausted pastor are recorded in `docs/strategy/scriptural-foundation.md`.
+
 ## At a Glance
 
 | Part | What it helps us understand | The central question | What it should produce |

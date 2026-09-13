@@ -207,7 +207,7 @@ This should include:
 
 Before we ask churches to clarify their foundation, we need to keep building our own:
 
-1. Choose the central Scriptures.
+1. Continue refining the Scriptural foundation, with 2 Timothy 1:6–7 as the primary anchor.
 2. Write James' mission.
 3. Write James' vision.
 4. Clarify the promise and boundaries of the work.

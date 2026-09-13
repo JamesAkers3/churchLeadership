@@ -53,6 +53,8 @@ Better does not mean bigger, busier, richer, or more impressive. It means health
 
 We are helping cultivate a healthy church—rooted in Christ, alive through the Holy Spirit, tended by the Father, and bearing fruit that reaches people with the saving grace of Jesus.
 
+The primary Scripture for this endeavor is **2 Timothy 1:6–7**. Paul reminds Timothy to tend the gift God has already placed in him, and he locates faithful ministry in the Spirit's power, love, and sound judgment rather than fear. This must never be flattened into telling an exhausted pastor to try harder. The wider foundation is recorded in `docs/strategy/scriptural-foundation.md`.
+
 Jesus is the vine. Apart from Him, we can do nothing. The Holy Spirit is the living water who brings life from within. The Father is the gardener who tends the branches and prepares them to bear more fruit. Good soil receives the Word and allows it to take root.
 
 Biblical anchors: John 15:1–5; John 7:37–39; Matthew 13:23.
