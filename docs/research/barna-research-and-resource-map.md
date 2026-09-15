@@ -100,7 +100,7 @@ In Barna's 2026 church-technology study, 95 percent of church leaders said techn
 
 The strongest engagement was associated with churches that connected technology to discipleship, community, and ministry goals. That reinforces our passion–vision–mission picture:
 
-> Passion creates the energy. Vision brings it into focus. Mission points it somewhere that matters. Impact happens where it lands.
+> Passion is the energy. Vision brings it into focus. Mission points it somewhere that matters. Impact happens where it lands.
 
 The question is not, “What else can we buy or add?” It is, “How can what we already have help us follow Jesus and serve people more faithfully?”
 

@@ -6,7 +6,7 @@ This is the bridge between what we have learned and what we still need to build.
 
 > **We have learned how to name what is happening. Now we need to help churches know what to do next.**
 
-We have done meaningful work to identify the pressures pastors and churches are facing. We have named scattered passion, unclear vision, divided direction, unsupported leadership, gaps in formation, systems that drain life, disconnection from the community, and the slow depletion that can lead toward burnout.
+We have done meaningful work to identify the pressures pastors and churches are facing. We have named scattered passion, unclear vision, competing missions, unsupported leadership, gaps in formation, systems that drain life, disconnection from the community, and the slow depletion that can lead toward burnout.
 
 Naming those things matters. It can bring relief when a pastor finally has words for what he or she has been carrying. But diagnosis cannot be the finish line.
 
@@ -101,7 +101,7 @@ This should include:
 
 ### 3. Vision, Mission, and Focus
 
-**What we have named:** Passion spread across too many priorities, unclear vision, divided direction, and energy that never consistently reaches the place God has called the church to serve.
+**What we have named:** Passion spread across too many priorities, unclear vision, competing missions, and energy that never consistently reaches the place God has called the church to serve.
 
 **What still needs to be built:** A Christ-centered vision and mission process that creates a shared direction and becomes a real decision-making tool.
 
@@ -193,7 +193,7 @@ This should include:
 
 ## Tools Still to Create
 
-1. **Leaders Guide for the four current visuals**
+1. **Leaders Guide for the five current visuals**
 2. **Community Listening and Engagement Worksheet**
 3. **1–3–12 Leadership and Shared-Weight Assessment**
 4. **Vision and Mission Discovery Guide**

@@ -18,13 +18,14 @@ Jesus remains the standard—not church trends, organizational growth, attendanc
 
 ## Current working PDFs
 
-- `output/pdf/rooted-renewed-multiplying-life-v7.pdf`
-- `output/pdf/from-passion-to-impact-v7.pdf`
+- `output/pdf/rooted-flourishing-multiplying-life-v8.pdf`
+- `output/pdf/from-passion-to-impact-v8.pdf`
+- `output/pdf/a-pastor-can-be-known-and-still-unsupported.pdf`
 - `output/pdf/christ-at-the-center-1-3-12.pdf`
-- `output/pdf/the-formation-gap.pdf`
+- `output/pdf/the-formation-gap-v2.pdf`
 
 Older visual directions remain preserved in `output/pdf/archive/`. Version numbers belong in filenames and PDF metadata only; they should not appear on the face of a PDF.
 
 ## Continuing the work
 
-The next major deliverable is a practical Leaders Guide for the four visuals. After that, build the adaptable Community Engagement Worksheet. James' own mission, vision, central Scriptures, and brand foundation still need to be established before those tools are used to create the same foundation for other churches.
+The next major deliverable is a practical Leaders Guide for the five visuals. After that, build the adaptable Community Engagement Worksheet. James' own mission, vision, central Scriptures, and brand foundation still need to be established before those tools are used to create the same foundation for other churches.

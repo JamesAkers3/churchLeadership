@@ -61,6 +61,16 @@ Jesus is the vine. Apart from Him, we can do nothing. The Holy Spirit is the liv
 
 Biblical anchors: John 15:1–5; John 7:37–39; Matthew 13:23.
 
+## The pastoral support gap
+
+Pastors can be visible, appreciated, and even personally known while still lacking a safe place to speak honestly or share the weight. Barna's 2022 findings help name that tension: 80 percent of pastors said someone outside their home and church knew them well, 65 percent reported feeling lonely or isolated at least sometimes, and only 22 percent received spiritual support from peers or a mentor several times a month or more. These are separate survey measures, not one scale or a single group moving through stages.
+
+> **People can know a pastor well and still miss when the pastor needs help.**
+
+Jesus named His sorrow in Gethsemane, brought Peter, James, and John closer, and asked them to keep watch. They fell asleep, but His willingness to ask was not weakness. The application is not for an exhausted pastor to manufacture a complete support system. It begins with one safe, honest conversation.
+
+The current visual is `output/pdf/a-pastor-can-be-known-and-still-unsupported.pdf`.
+
 ## The 1–3–12 leadership pattern
 
 A pastor nearing burnout may be doing nearly everything alone. The 1–3–12 pattern helps us look at self-leadership, trusted relationships, discipleship, and shared ministry.
@@ -85,10 +95,6 @@ The point is not simply to hand out more tasks.
 
 The deeper revelation is that Jesus loved everyone fully, but He did not give everyone the same access, assignment, or responsibility. Different proximity did not mean different value.
 
-Barna's findings show why this matters. In 2022, 80 percent of pastors said someone outside their home and church knew them well, yet 65 percent reported feeling lonely or isolated at least sometimes. Only 22 percent received spiritual support from peers or a mentor several times a month or more. These are separate measures, not one scale, but they reveal an important tension:
-
-> **Being known is not always the same as being supported. Being surrounded is not the same as being carried.**
-
 The Three were present when Jesus confronted death at Jairus's house (Mark 5:37), revealed His glory on the mountain (Mark 9:2), and carried sorrow in Gethsemane (Mark 14:33). Peter, James, and John were not simply His “top leaders.” They were trusted with moments the crowd did not see.
 
 This reframes the circles:
@@ -101,6 +107,8 @@ This reframes the circles:
 > **The crowd may see what the pastor carries. The trusted few must be allowed to see what it costs.**
 
 > **Different proximity is not favoritism. It is faithful stewardship.**
+
+The current visual is `output/pdf/christ-at-the-center-1-3-12.pdf`. It is deliberately separate from the pastoral-support statistics. This page makes one argument: Christ remains the source, and healthy relationships help tend the leader's soul, share weight, and form others. Its next step is simple: put names to the circles, then begin with one honest relationship.
 
 The continuing rhythm is:
 
@@ -137,7 +145,7 @@ The question is not only, “What can I get off my plate?” It is:
 
 The first step does not require fixing the whole system. Start with one person already near you. Invite that person into one real part of ministry.
 
-The current visual is `output/pdf/the-formation-gap.pdf`. It supersedes the earlier formation-rhythm visual as the working version.
+The current visual is `output/pdf/the-formation-gap-v2.pdf`. It gives the 96, 41, and 9 percent pastor findings equal visual weight, makes Jesus' formation pattern the dominant answer, and closes with one faithful believer as the next step. The original remains in `output/pdf/archive/`.
 
 ## From scattered passion to focused impact
 
@@ -147,20 +155,20 @@ Most people live like flashlights. Their energy spreads wide and thin across too
 
 > (Passion - Vision / Mission = No Impact)
 
-> **Passion is powerful. But without vision to focus it and mission to move it, passion becomes scattered energy.**
+> **Passion is powerful. But without vision to focus it and mission to direct it, passion becomes scattered energy.**
 
-> **Passion creates the energy. Vision brings it into focus. Mission points it somewhere that matters. Impact happens where it lands.**
+> **Passion is the energy. Vision brings it into focus. Mission points it somewhere that matters. Impact happens where it lands.**
 
 The picture is simple:
 
 - **Passion** is the light.
-- **Vision** is the lens that brings the light into focus.
-- **Mission** is the surface that points it somewhere that matters.
+- **Vision** is a future picture that brings the light into focus.
+- **Mission** is faithful action that points it somewhere that matters.
 - **Impact** is what happens where the light lands.
 
-The lens remains whole, but a softly clouded center shows unclear vision without calling the church broken. Several mission surfaces show divided direction pulling the church's energy different ways.
+The lens remains whole, but a softly clouded center shows unclear vision without calling the church broken. Several mission surfaces show competing missions pulling the church's energy in different directions.
 
-Unclear vision leaves the energy spread wide. Divided direction pulls the work different ways.
+Unclear vision blurs the picture and spreads the energy. Competing missions pull the work in different directions.
 
 The approved visual is `docs/strategy/assets/from-passion-to-impact.html`.
 
@@ -170,7 +178,7 @@ A separate print-ready alternative is archived as `output/pdf/archive/from-passi
 
 > (Passion - Vision / Mission = Scattered Energy)
 
-The current visual is `output/pdf/from-passion-to-impact-v7.pdf`. It preserves two complete light journeys with equal visual weight. The aligned path becomes **Life-Giving Impact**: faithful presence where God has called the church. In the second path, the passion is still present, but unclear vision leaves it spread wide and divided direction means less reaches where it was meant to land.
+The current visual is `output/pdf/from-passion-to-impact-v8.pdf`. It preserves two complete light journeys with equal visual weight while standardizing the definitions of passion, vision, and mission. The aligned path becomes **Life-Giving Impact**. In the second path, the passion is still present, but unclear vision spreads the energy and competing missions pull the work in different directions.
 
 **Limited Impact** does not mean small attendance, a small church, or insignificant ministry. A small, faithful ministry can carry deep, life-giving fruit. Here, limited means that less of the church's available energy is reaching its particular God-given destination.
 
@@ -269,7 +277,7 @@ The movement is:
 4. **Fruitful:** The church moves beyond its walls. Trust grows. Relationships deepen. The community begins to experience the fruit.
 5. **Multiplying:** Life no longer stops at the original tree. Seeds take root. New leaders rise. New ministry grows. The impact reaches beyond a program, a building, or one personality.
 
-Working title: **Rooted. Renewed. Multiplying Life.**
+Working title: **Rooted. Flourishing. Multiplying Life.**
 
 A separate one-page alternative is archived as `output/pdf/archive/rooted-renewed-multiplying-life-v2.pdf`. It keeps the original intact and carries the whole movement in one living tree: bare branches, buds, leaves, flowers, fruit, seeds, and saplings.
 
@@ -281,7 +289,7 @@ A lighter hybrid alternative is archived as `output/pdf/archive/rooted-renewed-m
 
 The V6 alternative is archived as `output/pdf/archive/rooted-renewed-multiplying-life-v6.pdf`. It keeps the five-season story and rebuilds it as fully vector editorial artwork.
 
-The current visual is `output/pdf/rooted-renewed-multiplying-life-v7.pdf`. It replaces the simplified vector trees with a mature botanical ink-and-gouache panorama while preserving the five movements: rooted dormancy, awakening, flourishing, fruitfulness, and multiplication. The shared landscape still carries the guardrail **A picture of seasons, not a scorecard.** The source artwork is preserved as `docs/strategy/assets/rooted-botanical-panorama-v1.png` so the PDF can be rebuilt or refined later.
+The current visual is `output/pdf/rooted-flourishing-multiplying-life-v8.pdf`. It keeps the mature botanical ink-and-gouache panorama and five movements from V7, while changing the title so it mirrors the beginning, middle, and outward result: rooted, flourishing, and multiplying life. The guardrail remains **A picture of seasons, not a scorecard.** V7 is preserved in `output/pdf/archive/`.
 
 Visual version numbers belong in filenames and PDF metadata only. They should not appear on the face of any PDF.
 
@@ -320,7 +328,7 @@ The working rhythm is **Listen → Discern → Design → Practice → Evaluate 
 
 ## Still to work through
 
-- A Leaders Guide explaining all four current visuals and how to walk a pastor, staff, or board through each message
+- A Leaders Guide explaining all five current visuals and how to walk a pastor, staff, or board through each message
 - A reusable Community Engagement Worksheet that can be filled in with the particular people, history, needs, relationships, assets, and opportunities surrounding any church
 - Central Scriptures for this endeavor
 - Final public-facing mission and vision wording

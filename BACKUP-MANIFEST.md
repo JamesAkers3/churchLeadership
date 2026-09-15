@@ -1,6 +1,6 @@
 # Backup Manifest
 
-**Prepared:** September 13, 2026  
+**Prepared:** September 15, 2026
 **Purpose:** Preserve enough context, source material, working history, and production files for another session or collaborator to continue without starting over.
 
 ## Orientation
@@ -29,10 +29,11 @@
 
 ## Current deliverables
 
-- `output/pdf/rooted-renewed-multiplying-life-v7.pdf`
-- `output/pdf/from-passion-to-impact-v7.pdf`
+- `output/pdf/rooted-flourishing-multiplying-life-v8.pdf`
+- `output/pdf/from-passion-to-impact-v8.pdf`
+- `output/pdf/a-pastor-can-be-known-and-still-unsupported.pdf`
 - `output/pdf/christ-at-the-center-1-3-12.pdf`
-- `output/pdf/the-formation-gap.pdf`
+- `output/pdf/the-formation-gap-v2.pdf`
 
 ## Preserved history
 
@@ -42,10 +43,11 @@
 
 ## Current production sources
 
-- `tmp/pdfs/build_rooted_v7.py` — current Rooted PDF builder.
-- `tmp/pdfs/build_passion_v7.py` — current Passion PDF builder.
-- `tmp/pdfs/build_christ_center_pdf.py` — Christ at the Center builder.
-- `tmp/pdfs/build_formation_gap_pdf.py` — Formation Gap builder.
+- `tmp/pdfs/build_rooted_v8.py` — current Rooted. Flourishing. Multiplying Life. PDF builder.
+- `tmp/pdfs/build_passion_v8.py` — current Passion PDF builder.
+- `tmp/pdfs/build_christ_center_pdf.py` — current builder for the separate pastoral-support and Christ at the Center / 1–3–12 PDFs.
+- `tmp/pdfs/build_christ_center_pdf_v1.py` — preserved builder for the superseded combined page.
+- `tmp/pdfs/build_formation_gap_v2.py` — current Formation Gap builder.
 
 Earlier builders remain alongside them so previous visual decisions can be recovered.
 

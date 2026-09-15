@@ -11,18 +11,19 @@ from reportlab.platypus import Paragraph
 
 
 ROOT = Path("/Users/jamesakers/Desktop/PERSONAL/James New Endeavor")
-OUTPUT = ROOT / "output/pdf/christ-at-the-center-1-3-12.pdf"
+SUPPORT_OUTPUT = ROOT / "output/pdf/a-pastor-can-be-known-and-still-unsupported.pdf"
+CIRCLES_OUTPUT = ROOT / "output/pdf/christ-at-the-center-1-3-12.pdf"
 
 CREAM = HexColor("#F4F0E3")
 PAPER = HexColor("#FBF8EF")
 FOREST = HexColor("#173F36")
 FOREST_DARK = HexColor("#102F29")
 INK = HexColor("#293630")
-MUTED = HexColor("#68736D")
+MUTED = HexColor("#56635D")
 GOLD = HexColor("#D5A13A")
-MOSS = HexColor("#789461")
-SAGE = HexColor("#DEE8D3")
-PALE_GOLD = HexColor("#EEE4C5")
+MOSS = HexColor("#607D50")
+SAGE = HexColor("#C8DABA")
+PALE_GOLD = HexColor("#F2E4BB")
 WHITE = HexColor("#FFFDF6")
 RULE = HexColor("#C8C7BC")
 
@@ -73,255 +74,418 @@ def tracking_text(pdf, text, x, y, font="Helvetica-Bold", size=8.5, gap=1.7):
         cursor += pdf.stringWidth(character, font, size) + gap
 
 
-def stat(pdf, center_x, top, value, copy, value_color, width=158):
+def stat_column(pdf, x, top, width, label, value, copy, value_color):
+    label_style = style(
+        f"stat-label-{value}", "Helvetica-Bold", 8.1, 9.5, FOREST, TA_CENTER
+    )
     value_style = style(
-        f"stat-{value}", "Georgia-Bold", 32, 34, value_color, TA_CENTER
+        f"stat-{value}", "Georgia-Bold", 36, 38, value_color, TA_CENTER
     )
     copy_style = style(
-        f"stat-copy-{value}", "Helvetica", 9.1, 11.5, INK, TA_CENTER
+        f"stat-copy-{value}", "Helvetica", 9.3, 11.8, INK, TA_CENTER
     )
-    left = center_x - width / 2
-    draw_paragraph(pdf, value, value_style, left, top, width)
-    draw_paragraph(pdf, copy, copy_style, left, top - 39, width)
+    draw_paragraph(pdf, label, label_style, x + 10, top, width - 20)
+    draw_paragraph(pdf, value, value_style, x + 10, top - 15, width - 20)
+    draw_paragraph(pdf, copy, copy_style, x + 18, top - 58, width - 36)
 
 
-def ring_diagram(pdf, center_x, center_y):
-    rings = [
-        (91, SAGE, MOSS),
-        (64, PALE_GOLD, GOLD),
-        (43, PAPER, MOSS),
-        (25, FOREST_DARK, FOREST_DARK),
-    ]
-    for radius, fill, stroke in rings:
-        pdf.setFillColor(fill)
-        pdf.setStrokeColor(stroke)
-        pdf.setLineWidth(1.2)
-        pdf.circle(center_x, center_y, radius, fill=1, stroke=1)
-
-    number_style = style(
-        "ring-number", "Georgia-Bold", 11, 12, FOREST, TA_CENTER
-    )
-    draw_paragraph(pdf, "12", number_style, center_x - 16, center_y + 81, 32)
-    draw_paragraph(pdf, "3", number_style, center_x - 16, center_y + 58, 32)
-    draw_paragraph(pdf, "1", number_style, center_x - 16, center_y + 38, 32)
-
-    center_style = style(
-        "ring-center", "Helvetica-Bold", 7.4, 8.5, WHITE, TA_CENTER
-    )
-    draw_paragraph(pdf, "CHRIST", center_style, center_x - 24, center_y + 4, 48)
-
-def relationship_block(pdf, top, number, heading, body, scripture):
-    x = 294
-    width = 282
-    pdf.setStrokeColor(GOLD)
-    pdf.setLineWidth(2.4)
-    pdf.line(x, top - 1, x, top - 54)
-
-    heading_style = style(
-        f"relationship-heading-{number}",
-        "Georgia-Bold",
-        10.9,
-        13.4,
-        FOREST,
-        TA_LEFT,
-    )
-    body_style = style(
-        f"relationship-body-{number}", "Helvetica", 8.9, 11.4, INK, TA_LEFT
-    )
-    scripture_style = style(
-        f"relationship-scripture-{number}",
-        "Helvetica-Bold",
-        7.4,
-        9,
-        MOSS,
-        TA_LEFT,
-    )
-
-    text_x = x + 12
-    text_width = width - 12
-    next_top = draw_paragraph(
-        pdf,
-        f"{number} / {heading}",
-        heading_style,
-        text_x,
-        top,
-        text_width,
-    ) - 3
-    next_top = draw_paragraph(pdf, body, body_style, text_x, next_top, text_width) - 2
-    draw_paragraph(pdf, scripture, scripture_style, text_x, next_top, text_width)
-
-
-def build_pdf() -> None:
-    register_fonts()
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-
-    page_width, page_height = letter
-    pdf = canvas.Canvas(str(OUTPUT), pagesize=letter, pageCompression=1)
-    pdf.setTitle("Christ at the Center - 1-3-12")
+def base_canvas(path, title, subject):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    pdf = canvas.Canvas(str(path), pagesize=letter, pageCompression=1)
+    pdf.setTitle(title)
     pdf.setAuthor("James Akers")
-    pdf.setSubject(
-        "A Christ-centered framework for stewarding proximity, trust and responsibility"
-    )
-
+    pdf.setSubject(subject)
     pdf.setFillColor(CREAM)
-    pdf.rect(0, 0, page_width, page_height, fill=1, stroke=0)
+    pdf.rect(0, 0, letter[0], letter[1], fill=1, stroke=0)
+    return pdf
 
-    margin = 36
-    content_width = page_width - margin * 2
 
-    tracking_text(pdf, "CHRIST AT THE CENTER / 1-3-12", margin, 758)
-
-    headline_style = style(
-        "headline", "Georgia-Bold", 22, 26, FOREST, TA_LEFT
+def build_support_pdf() -> None:
+    pdf = base_canvas(
+        SUPPORT_OUTPUT,
+        "A Pastor Can Be Known and Still Unsupported",
+        "A pastoral reflection on the difference between being known and receiving support",
     )
+    page_width, _ = letter
+    margin = 36
+    content_width = page_width - 2 * margin
+
+    tracking_text(pdf, "PASTORAL SUPPORT / THE RELATIONAL GAP", margin, 758)
+    headline = style("support-headline", "Georgia-Bold", 23, 27, FOREST)
     draw_paragraph(
         pdf,
-        "Being surrounded is not the same as being carried.",
-        headline_style,
+        "A pastor can be known and still unsupported.",
+        headline,
         margin,
-        733,
+        730,
+        content_width,
+    )
+    intro = style("support-intro", "Helvetica", 10.5, 14, INK)
+    draw_paragraph(
+        pdf,
+        "People may recognize the role and appreciate the ministry without seeing what it is costing the person carrying it.",
+        intro,
+        margin,
+        671,
         content_width,
     )
 
-    stat(pdf, 119, 672, "80%", "say someone outside home and church knows them well.", FOREST)
-    stat(pdf, 306, 672, "65%", "report feeling lonely or isolated at least sometimes.", GOLD)
-    stat(
+    stat_column(
         pdf,
-        493,
-        672,
+        margin,
+        627,
+        252,
+        "KNOWN WELL",
+        "80%",
+        "say someone outside home and church knows them well.",
+        FOREST,
+    )
+    stat_column(
+        pdf,
+        324,
+        627,
+        252,
+        "SUPPORTED OFTEN",
         "22%",
         "receive spiritual support from peers or a mentor several times a month or more.",
         FOREST,
     )
-
-    pdf.setStrokeColor(RULE)
-    pdf.setLineWidth(0.7)
-    pdf.line(212, 587, 212, 668)
-    pdf.line(400, 587, 400, 668)
-
-    pdf.setFillColor(SAGE)
-    pdf.roundRect(margin, 548, content_width, 31, 10, fill=1, stroke=0)
-    research_bridge = style(
-        "research-bridge", "Georgia-Bold", 11.5, 14, FOREST, TA_CENTER
+    pdf.setStrokeColor(MOSS)
+    pdf.setLineWidth(0.8)
+    pdf.line(page_width / 2, 540, page_width / 2, 625)
+    qualifier = style("stat-qualifier", "Helvetica", 8.7, 10.5, MUTED, TA_CENTER)
+    draw_paragraph(
+        pdf,
+        "These are separate survey questions, not one group moving through three stages.",
+        qualifier,
+        margin,
+        529,
+        content_width,
+    )
+    context_stat = style(
+        "context-stat", "Helvetica-Bold", 9.8, 12, FOREST, TA_CENTER
     )
     draw_paragraph(
         pdf,
-        "Being known is not always the same as being supported.",
-        research_bridge,
-        margin + 16,
-        569,
-        content_width - 32,
+        "<font name='Georgia-Bold' size='15' color='#8A5C00'>65%</font> report feeling lonely or isolated at least sometimes.",
+        context_stat,
+        margin + 20,
+        499,
+        content_width - 40,
     )
 
     pdf.setFillColor(FOREST_DARK)
-    pdf.roundRect(margin, 476, content_width, 57, 13, fill=1, stroke=0)
+    pdf.roundRect(margin, 357, content_width, 94, 12, fill=1, stroke=0)
     pdf.setFillColor(GOLD)
-    pdf.roundRect(margin, 476, 7, 57, 4, fill=1, stroke=0)
-    jesus_statement = style(
-        "jesus-statement", "Georgia-Bold", 14.2, 18, WHITE, TA_LEFT
+    pdf.rect(margin, 357, 6, 94, fill=1, stroke=0)
+    bridge_headline = style(
+        "bridge-headline", "Georgia-Bold", 14.5, 18, WHITE
     )
+    bridge_body = style("bridge-body", "Helvetica", 9.7, 13, WHITE)
     draw_paragraph(
         pdf,
-        "Jesus loved everyone fully. He did not give everyone the same access, assignment or responsibility.",
-        jesus_statement,
-        margin + 25,
-        519,
+        "People can know a pastor well and still miss when the pastor needs help.",
+        bridge_headline,
+        margin + 24,
+        425,
         content_width - 48,
     )
-
-    central_statement = style(
-        "central-statement", "Georgia-Bold", 12.5, 15.5, FOREST, TA_CENTER
-    )
     draw_paragraph(
         pdf,
-        "The crowd may see what the pastor carries. The trusted few must be allowed to see what it costs.",
-        central_statement,
-        72,
-        459,
-        page_width - 144,
-    )
-
-    ring_diagram(pdf, 158, 327)
-
-    relationship_block(
-        pdf,
-        414,
-        "1",
-        "THE SOUL BENEATH THE ROLE",
-        "Before anyone sees the pastor, Christ knows the person. Abide before you lead.",
-        "JOHN 15:5",
-    )
-    relationship_block(
-        pdf,
-        345,
-        "3",
-        "THE FEW WHO KNOW THE COST",
-        "They witnessed Jesus confront death, reveal glory and carry sorrow. They saw moments the crowd did not.",
-        "MARK 5:37 / 9:2 / 14:33",
-    )
-    relationship_block(
-        pdf,
-        276,
-        "12",
-        "PEOPLE FORMED TO CARRY THE MISSION",
-        "They were with Jesus before they were sent. He shared life, truth and real responsibility.",
-        "MARK 3:14-15",
+        "A pastor may have people nearby without having a safe place to speak honestly or share the weight.",
+        bridge_body,
+        margin + 24,
+        390,
+        content_width - 48,
     )
 
     pdf.setStrokeColor(GOLD)
     pdf.setLineWidth(3)
-    pdf.line(margin, 203, margin, 144)
-
-    question_style = style(
-        "question", "Georgia-Bold", 14.8, 18.5, FOREST, TA_LEFT
+    pdf.line(margin, 273, margin, 334)
+    jesus_label = style("jesus-label", "Helvetica-Bold", 8.2, 9.5, FOREST)
+    jesus_text = style("jesus-text", "Georgia-Bold", 11.5, 15, FOREST)
+    draw_paragraph(
+        pdf,
+        "JESUS IN GETHSEMANE",
+        jesus_label,
+        margin + 18,
+        321,
+        content_width - 40,
     )
+    draw_paragraph(
+        pdf,
+        "Jesus named His sorrow, brought Peter, James and John closer, and asked them to keep watch. They fell asleep—but His willingness to ask was not weakness.",
+        jesus_text,
+        margin + 18,
+        304,
+        content_width - 40,
+    )
+    scripture_ref = style("jesus-scripture", "Helvetica-Bold", 8.2, 9.5, MOSS)
+    draw_paragraph(
+        pdf,
+        "MARK 14:32-37",
+        scripture_ref,
+        margin + 18,
+        274,
+        content_width - 40,
+    )
+
+    pdf.setFillColor(PAPER)
+    pdf.roundRect(margin, 121, content_width, 126, 12, fill=1, stroke=0)
+    pdf.setStrokeColor(GOLD)
+    pdf.setLineWidth(3)
+    pdf.line(margin + 18, 137, margin + 18, 231)
+    question = style("support-question", "Georgia-Bold", 17, 21, FOREST)
+    question_body = style("support-question-body", "Helvetica", 10.5, 14, INK)
+    next_step = style("support-next-step", "Helvetica-Bold", 9.5, 12, FOREST)
     draw_paragraph(
         pdf,
         "Who knows the soul beneath your role?",
-        question_style,
-        margin + 17,
-        203,
-        content_width - 17,
-    )
-    application_style = style(
-        "application", "Helvetica-Bold", 9.8, 13, INK, TA_LEFT
+        question,
+        margin + 34,
+        227,
+        content_width - 58,
     )
     draw_paragraph(
         pdf,
-        "Who has seen both the fruit and the cost? Who are you intentionally forming to carry the mission, not merely help with the work?",
-        application_style,
-        margin + 17,
-        172,
-        content_width - 17,
+        "Who is close enough to see both the fruit and the cost—and present enough to help carry the weight?",
+        question_body,
+        margin + 34,
+        189,
+        content_width - 58,
+    )
+    draw_paragraph(
+        pdf,
+        "<b>Begin with one safe, honest conversation.</b><br/><font name='Helvetica' size='9'>You do not have to carry this alone or wait for a crisis to ask for support.</font>",
+        next_step,
+        margin + 34,
+        154,
+        content_width - 58,
     )
 
-    pdf.setFillColor(SAGE)
-    pdf.roundRect(margin, 82, content_width, 53, 13, fill=1, stroke=0)
-    heartbeat_style = style(
-        "heartbeat", "Georgia-Bold", 12.3, 15.5, FOREST, TA_CENTER
-    )
+    source = style("support-source", "Helvetica", 7.5, 9.2, MUTED)
     draw_paragraph(
         pdf,
-        "Different proximity is not favoritism. It is faithful stewardship.",
-        heartbeat_style,
-        margin + 30,
-        116,
-        content_width - 60,
-    )
-
-    source_style = style("sources", "Helvetica", 6.8, 8.6, MUTED, TA_LEFT)
-    draw_paragraph(
-        pdf,
-        "Source: Barna Group, '7-Year Trends: Pastors Feel More Loneliness and Less Support,' July 12, 2023. The three figures are separate survey measures and should not be read as one scale. 2015 survey: 901 U.S. Protestant senior pastors. 2022 survey: 585 U.S. Protestant senior pastors.",
-        source_style,
+        "Source: Barna Group, '7-Year Trends: Pastors Feel More Loneliness & Less Support,' July 12, 2023. Displayed figures: 2022 survey of 585 U.S. Protestant senior pastors. The figures are separate measures and should not be read as one scale.",
+        source,
         margin,
-        62,
+        91,
         content_width,
     )
-
     pdf.showPage()
     pdf.save()
 
 
+def ring_diagram(pdf, center_x, center_y):
+    rings = [
+        (108, SAGE, MOSS),
+        (80, PALE_GOLD, GOLD),
+        (55, PAPER, MOSS),
+        (32, FOREST_DARK, FOREST_DARK),
+    ]
+    for radius, fill, stroke in rings:
+        pdf.setFillColor(fill)
+        pdf.setStrokeColor(stroke)
+        pdf.setLineWidth(1.3)
+        pdf.circle(center_x, center_y, radius, fill=1, stroke=1)
+    number_style = style("ring-number", "Georgia-Bold", 11, 12, FOREST, TA_CENTER)
+    draw_paragraph(pdf, "12", number_style, center_x - 20, center_y + 99, 40)
+    draw_paragraph(pdf, "3", number_style, center_x + 52, center_y + 7, 32)
+    draw_paragraph(pdf, "1", number_style, center_x - 64, center_y + 7, 32)
+    center_style = style(
+        "ring-center", "Helvetica-Bold", 8.2, 9.5, WHITE, TA_CENTER
+    )
+    draw_paragraph(pdf, "CHRIST", center_style, center_x - 27, center_y + 5, 54)
+
+
+def action_block(pdf, top, number, action, body, scripture, height=59):
+    x = 310
+    width = 266
+    marker_style = {
+        "CHRIST": (FOREST_DARK, FOREST_DARK, WHITE, "C"),
+        "1": (PAPER, MOSS, FOREST, "1"),
+        "3": (PALE_GOLD, GOLD, FOREST, "3"),
+        "12": (SAGE, MOSS, FOREST, "12"),
+    }
+    heading = style(
+        f"action-heading-{number}", "Georgia-Bold", 10.6, 12.6, FOREST
+    )
+    body_style = style(f"action-body-{number}", "Helvetica", 8.6, 10.8, INK)
+    scripture_style = style(
+        f"action-scripture-{number}", "Helvetica-Bold", 7.4, 8.8, MOSS
+    )
+    if number == "CHRIST":
+        text_x = x
+        text_width = width
+        heading_text = f"CHRIST / {action}"
+    else:
+        fill, stroke, text_color, marker_text = marker_style[number]
+        pdf.setFillColor(fill)
+        pdf.setStrokeColor(stroke)
+        pdf.setLineWidth(1.2)
+        pdf.circle(x + 13, top - 18, 11.5, fill=1, stroke=1)
+        marker = style(
+            f"action-marker-{number}",
+            "Helvetica-Bold",
+            7.5,
+            8.5,
+            text_color,
+            TA_CENTER,
+        )
+        draw_paragraph(pdf, marker_text, marker, x + 1, top - 14, 24)
+        text_x = x + 34
+        text_width = width - 34
+        heading_text = f"{number} / {action}"
+    y = draw_paragraph(
+        pdf, heading_text, heading, text_x, top - 7, text_width
+    ) - 2
+    y = draw_paragraph(pdf, body, body_style, text_x, y, text_width) - 1
+    draw_paragraph(pdf, scripture, scripture_style, text_x, y, text_width)
+    pdf.setStrokeColor(RULE)
+    pdf.setLineWidth(0.6)
+    pdf.line(text_x, top - height, x + width, top - height)
+
+
+def build_circles_pdf() -> None:
+    pdf = base_canvas(
+        CIRCLES_OUTPUT,
+        "Christ at the Center - 1-3-12",
+        "A relational framework for abiding, sharing weight, and forming people to carry the mission",
+    )
+    page_width, _ = letter
+    margin = 36
+    content_width = page_width - 2 * margin
+
+    tracking_text(pdf, "CHRIST AT THE CENTER / 1-3-12", margin, 758)
+    headline = style("circles-headline", "Georgia-Bold", 21, 25, FOREST)
+    draw_paragraph(
+        pdf,
+        "Christ remains the source, and the weight was never meant to rest on one person.",
+        headline,
+        margin,
+        730,
+        content_width,
+    )
+    intro = style("circles-intro", "Helvetica", 10.4, 14, INK)
+    draw_paragraph(
+        pdf,
+        "Jesus loved the crowds, walked closely with the Twelve, and let three see moments the rest of the Twelve did not.",
+        intro,
+        margin,
+        660,
+        content_width,
+    )
+
+    ring_diagram(pdf, 164, 458)
+    action_block(
+        pdf,
+        583,
+        "CHRIST",
+        "THE SOURCE",
+        "He holds both the leader and the ministry. Everything begins by remaining in Him.",
+        "JOHN 15:5",
+    )
+    action_block(
+        pdf,
+        516,
+        "1",
+        "THE SOUL BENEATH THE ROLE",
+        "Your life with Christ matters, not only the work in front of you.",
+        "1 TIMOTHY 4:16",
+    )
+    action_block(
+        pdf,
+        449,
+        "3",
+        "TRUSTED SUPPORT",
+        "Trusted peers or mentors see the cost, pray, speak truth and help carry what should not be carried alone.",
+        "MARK 14:33 / GALATIANS 6:2",
+        64,
+    )
+    action_block(
+        pdf,
+        382,
+        "12",
+        "PEOPLE BEING FORMED",
+        "People are brought close enough to learn, given something real to carry and helped to grow into what God is calling them to do.",
+        "MARK 3:14-15",
+        66,
+    )
+
+    framework_label = style(
+        "framework-label", "Helvetica-Bold", 7.4, 9, FOREST, TA_CENTER
+    )
+    framework_body = style(
+        "framework-body", "Helvetica", 7.4, 9.3, MUTED, TA_CENTER
+    )
+    draw_paragraph(
+        pdf,
+        "RELATIONSHIPS, NOT RANK",
+        framework_label,
+        49,
+        334,
+        230,
+    )
+    draw_paragraph(
+        pdf,
+        "The numbers are a picture, not a rule. Every person has equal value. A pastor's trusted support may include peers or mentors outside the team being led. Closer relationships still need healthy accountability.",
+        framework_body,
+        49,
+        319,
+        230,
+    )
+
+    pdf.setFillColor(PAPER)
+    pdf.roundRect(margin, 154, content_width, 124, 12, fill=1, stroke=0)
+    pdf.setStrokeColor(GOLD)
+    pdf.setLineWidth(3)
+    pdf.line(margin + 18, 171, margin + 18, 260)
+    cta = style("circles-cta", "Georgia-Bold", 17, 21, FOREST)
+    cta_body = style("circles-cta-body", "Helvetica", 10.1, 13.5, INK)
+    cta_step = style("circles-cta-step", "Helvetica-Bold", 9.2, 11, FOREST)
+    draw_paragraph(
+        pdf,
+        "Put names to the circles.",
+        cta,
+        margin + 34,
+        253,
+        content_width - 58,
+    )
+    draw_paragraph(
+        pdf,
+        "Who helps you remain rooted? Who can see the cost? Who are you forming and entrusting?",
+        cta_body,
+        margin + 34,
+        218,
+        content_width - 58,
+    )
+    draw_paragraph(
+        pdf,
+        "<b>Write down one name. Start there.</b><br/><font name='Helvetica' size='8.8'>If a circle is empty, do not rush to fill it. Pray, then begin with one honest relationship.</font>",
+        cta_step,
+        margin + 34,
+        190,
+        content_width - 58,
+    )
+
+    source = style("circles-source", "Helvetica", 7.5, 9.2, MUTED)
+    draw_paragraph(
+        pdf,
+        "Scripture: John 15:5; 1 Timothy 4:16; Mark 3:14-15; 5:37; 9:2; 14:33; Galatians 6:2. The pattern is relational; the numbers are not a rule.",
+        source,
+        margin,
+        111,
+        content_width,
+    )
+    pdf.showPage()
+    pdf.save()
+
+
+def build_pdfs() -> None:
+    register_fonts()
+    build_support_pdf()
+    build_circles_pdf()
+
+
 if __name__ == "__main__":
-    build_pdf()
+    build_pdfs()

@@ -44,13 +44,13 @@ The complete working foundation is saved in `docs/strategy/scriptural-foundation
 - output/pdf/archive/rooted-renewed-multiplying-life-v3.pdf — the archived five-tree vector progression.
 - output/pdf/archive/rooted-renewed-multiplying-life-v4.pdf — the archived original-artwork alternative with the larger green title field.
 - docs/strategy/assets/rooted-botanical-panorama-v1.png — the source botanical panorama created for the current Rooted visual.
-- output/pdf/rooted-renewed-multiplying-life-v7.pdf — the current Rooted visual: a mature botanical ink-and-gouache panorama that moves from a dormant rooted tree to buds, flourishing life, fruit, seeds, and saplings. It explicitly frames the images as seasons rather than a scorecard.
+- output/pdf/rooted-flourishing-multiplying-life-v8.pdf — the current Rooted visual: a mature botanical ink-and-gouache panorama that moves from a dormant rooted tree to buds, flourishing life, fruit, seeds, and saplings. It explicitly frames the images as seasons rather than a scorecard.
 - docs/strategy/assets/christ-centered-leadership-cycle.html — the simplified 1–3–12 relationship model with Christ at the center.
-- output/pdf/the-formation-gap.pdf — the current fourth visual, showing the distance between believing ministry should be shared and intentionally forming people to carry it. It replaces the earlier formation-rhythm visual as the working version.
+- output/pdf/the-formation-gap-v2.pdf — the current Formation Gap visual. It gives the three pastor statistics equal weight, makes Jesus' formation pattern the dominant answer, and ends with one practical next step and hope rather than shame.
 - docs/strategy/assets/jesus-formation-rhythm.html — the earlier formation-rhythm concept. It is preserved for history but superseded by **The Formation Gap**.
 - docs/strategy/assets/from-passion-to-impact.html — the approved passion, vision, mission, and impact visual.
 - output/pdf/archive/from-passion-to-impact-v2.pdf — the archived first portrait alternative.
-- output/pdf/from-passion-to-impact-v7.pdf — the current Passion visual, showing two complete light journeys: **Life-Giving Impact** and **Limited Impact**. Vision is an intact lens; unclear vision leaves the light spread wide; mission redirects focused light; divided direction sends energy away from its intended destination.
+- output/pdf/from-passion-to-impact-v8.pdf — the current Passion visual. Passion is the energy, vision is a future picture that focuses, and mission is faithful action that directs. The lower journey shows unclear vision and competing missions producing limited impact.
 
 The agreed voice and editing direction are also saved:
 
@@ -75,9 +75,9 @@ Version numbers belong in filenames and PDF metadata only. They should never app
 
 > (Passion - Vision / Mission = Scattered Energy)
 
-> **Passion is powerful. But without vision to focus it and mission to move it, passion becomes scattered energy.**
+> **Passion is powerful. But without vision to focus it and mission to direct it, passion becomes scattered energy.**
 
-> **Passion creates the energy. Vision brings it into focus. Mission points it somewhere that matters. Impact happens where it lands.**
+> **Passion is the energy. Vision brings it into focus. Mission points it somewhere that matters. Impact happens where it lands.**
 
 > **Misalignment scatters passion. Burnout drains the capacity to carry it.**
 
@@ -145,9 +145,9 @@ The circle continues:
 
 The Three remain part of the Twelve. The numbers help us see the relationships. They are not a biblical command about headcount or a promise that growth will follow.
 
-## The four pictures
+## The five pictures
 
-### Rooted. Renewed. Multiplying Life.
+### Rooted. Flourishing. Multiplying Life.
 
 A bare tree is not always a dead tree. The picture moves from roots to buds, flowers, fruit, seeds, and saplings. It shows a church becoming healthy and then sharing life beyond itself.
 
@@ -165,32 +165,44 @@ The V5 removes the oversized green title field. It uses an off-white opening, a 
 
 The V6 keeps the original five-season story but rebuilds the landscape entirely as crisp vector artwork. Organic trunks, branches, leaves, fruit, seeds, and saplings replace the older raster and clip-art treatment. The visual now says **A picture of seasons, not a scorecard**. Its careful language offers hope without promising that every dormant ministry will recover or that faithfulness always produces visible growth. Visual, publisher, theological, and church-advocate QA found no remaining blockers for full-size church-office use.
 
-The current V7 replaces the simplified vector trees with a professional botanical ink-and-gouache panorama. The five movements remain clear—rooted dormancy, awakening, flourishing, fruitfulness, and multiplication—but the artwork now feels mature, natural, and suitable for pastoral and leadership settings. The source panorama is preserved in `docs/strategy/assets/`, and V6 remains archived. Publisher QA confirmed that the current page is ready for full-size church-office printing; the artwork is approximately 214 ppi at placed size, with embedded fonts, safe margins, and clean grayscale reproduction.
+V7 replaced the simplified vector trees with a professional botanical ink-and-gouache panorama. V8 keeps that approved artwork and changes the title to **Rooted. Flourishing. Multiplying Life.** so the title mirrors the beginning, middle, and outward result of the five movements. V7 remains archived. All six QA perspectives passed V8; the artwork remains approximately 214 ppi at placed size, with embedded fonts, safe margins, and clean grayscale reproduction.
 
-### Christ at the Center
+### A Pastor Can Be Known and Still Unsupported
 
-The rebuilt visual begins with a pastoral tension:
+This page carries one focused pastoral tension:
 
-> **Being surrounded is not the same as being carried.**
+> **People can know a pastor well and still miss when the pastor needs help.**
 
-Barna's findings help name the relational support gap. The page then turns to Jesus—not to validate an organizational chart, but to reveal His stewardship of proximity:
+Barna's 80 percent, 22 percent, and 65 percent findings are shown as separate survey measures, not a funnel or one scale. The page then turns to Gethsemane: Jesus named His sorrow, brought Peter, James, and John closer, and asked them to keep watch. They fell asleep, but His willingness to ask was not weakness.
 
-> **Jesus loved everyone fully. He did not give everyone the same access, assignment or responsibility.**
+The one next step is:
 
-The Three were with Jesus when He confronted death at Jairus's house, revealed His glory on the mountain, and carried sorrow in Gethsemane. They were not simply the highest-ranking disciples. They were trusted with moments the crowd did not see.
+> **Begin with one safe, honest conversation.**
+
+The current visual is `output/pdf/a-pastor-can-be-known-and-still-unsupported.pdf`.
+
+### Christ at the Center — 1–3–12
+
+This page now stands apart from the statistics. It makes one argument:
+
+> **Christ remains the source, and the weight was never meant to rest on one person.**
+
+Jesus loved the crowds, walked closely with the Twelve, and let three see moments the rest of the Twelve did not. The circles show relationships, not rank. The numbers are a picture, not a rule.
 
 The nested circles now mean:
 
 - **Christ — The source:** He holds the leader and the ministry.
 - **1 — The soul beneath the role:** Before anyone sees the pastor, Christ knows the person.
-- **3 — The few who know the cost:** They see both the fruit and what it costs.
+- **3 — Trusted support:** Trusted peers or mentors see the cost, pray, speak truth, and help carry what should not be carried alone.
 - **12 — People formed to carry the mission:** They are with Jesus before they are sent and entrusted with real responsibility.
 
-The Three remain inside the Twelve. The numbers do not establish a hierarchy of value. They help us examine proximity, trust, formation, and responsibility.
+The Three remain inside the Twelve. Every person has equal value. A pastor's trusted support may include peers or mentors outside the team being led, and closer relationships still need healthy accountability. This is a pattern drawn from Jesus' relationships, not a formula Scripture commands.
 
-The Heartbeat is:
+The one next step is:
 
-> **Different proximity is not favoritism. It is faithful stewardship.**
+> **Write down one name. Start there.**
+
+The current visual is `output/pdf/christ-at-the-center-1-3-12.pdf`. The superseded combined page remains preserved as `output/pdf/archive/christ-at-the-center-1-3-12-v1.pdf`.
 
 ### From Passion to Impact
 
@@ -198,19 +210,25 @@ The original visual and every intermediate version are preserved in `output/pdf/
 
 Passion is the light. Vision is the lens that brings it into focus. Mission points the light somewhere that matters. Impact is what happens where it lands.
 
-A clear lens brings the light into focus. An intact but clouded lens shows unclear vision without implying failure or brokenness. One mission surface redirects the focused light toward its destination. Several surfaces show divided direction pulling the work different ways.
+A clear lens brings the light into focus. An intact but clouded lens shows unclear vision without implying failure or brokenness. One mission surface redirects the focused light toward its destination. Several surfaces show competing missions pulling the work in different directions.
 
-> **Unclear vision leaves the energy spread wide. Divided direction pulls the work different ways.**
+> **Unclear vision blurs the picture and spreads the energy. Competing missions pull the work in different directions.**
 
-Its Heartbeat points directly to Mark 1:35–39. Jesus knew why He came and stayed faithful to the Father's purpose. We align what we carry with where He is leading. Only Jesus gives life.
+Its Heartbeat points directly to Mark 1:35–39. Jesus knew why He came and stayed faithful to the Father's purpose. We let Jesus direct what we carry and where we go. Only Jesus gives life.
 
 The V2 keeps the metaphor and James' language while simplifying the two outcomes to **Focused Impact** and **Scattered Energy**.
 
-The current V7 preserves the side-by-side tension with equal visual weight. The aligned path reaches faithful presence where God has called the church. The second path begins with the same passion, but unclear vision leaves it spread wide and divided direction sends less of that energy where it was meant to land. **Limited Impact** does not mean a small church, small attendance, or insignificant ministry; it means less of the church's available energy is reaching its particular God-given destination. The equations are memorable pictures, not guaranteed spiritual outcomes. Visual, publisher, theological, and church-advocate QA found no remaining blockers for facilitated, full-size church-office use.
+The current V8 preserves the side-by-side tension and two complete light journeys while standardizing the definitions. **Passion is the energy. Vision is a future picture that focuses us. Mission is faithful action that directs us.** The lower equation now reads **(Passion - Clear Vision) / Competing Missions = Limited Impact**, and each beam meets and leaves its own reflector. Limited impact does not mean a small church or insignificant ministry; it means less of the work reaches the people it was meant to serve. All six QA perspectives passed the page for facilitated, full-size church-office use.
 
 ### The Formation Gap
 
-Most pastors believe ministry should be shared, but many churches still struggle to develop new leaders. The visual does not use that gap to scold an exhausted pastor. It names what may have been missing: if the first time we think about delegation is when the pastor is exhausted, we waited too long.
+Most pastors believe ministry should be shared, but many churches still struggle to develop new leaders. The 96, 41, and 9 percent findings now receive equal visual space and explicitly identify Protestant senior pastors as the respondents.
+
+The page moves from the formation gap to Jesus' answer:
+
+> **Jesus called the Twelve to be with Him before He sent them out.**
+
+> **Jesus formed people through shared life before He trusted them to carry the work.**
 
 Jesus' pattern is relational and repeatable:
 
@@ -218,9 +236,15 @@ Jesus' pattern is relational and repeatable:
 
 He brought the disciples close enough to watch, ask, fail, and learn. He gave them authority and a clear assignment. He sent them together. When they returned, He listened to what had happened and called them to rest.
 
-The application begins with one person already near the pastor—not a complete reorganization:
+The application begins with one faithful believer already near the pastor—not a complete reorganization:
 
 > **Who is close enough to watch you lead, understand why, carry something real, and come back to talk about it?**
+
+The closing names the cost without leaving the pastor or team in shame:
+
+> **If we only begin forming people when the pastor is exhausted, we started too late. But it is not too late to begin.**
+
+The current visual is `output/pdf/the-formation-gap-v2.pdf`. The original remains archived as `output/pdf/archive/the-formation-gap.pdf`.
 
 The supporting Barna findings help us name the gap. The way Jesus formed His disciples gives us the pattern for responding to it. The earlier **Way Jesus Formed People** visual is now superseded by this one.
 
@@ -260,12 +284,13 @@ The complete map of open systems and deliverables is saved in `OPEN-WORK-AND-NEX
 
 ### Immediate next deliverable: Leaders Guide
 
-Create a practical Leaders Guide for all four visuals:
+Create a practical Leaders Guide for all five visuals:
 
-1. **Rooted. Renewed. Multiplying Life.**
-2. **Christ at the Center — 1–3–12**
-3. **From Passion to Impact**
-4. **The Formation Gap**
+1. **Rooted. Flourishing. Multiplying Life.**
+2. **From Passion to Impact**
+3. **A Pastor Can Be Known and Still Unsupported**
+4. **Christ at the Center — 1–3–12**
+5. **The Formation Gap**
 
 For each visual, the guide should explain the heart behind the picture, the Scriptures and research beneath it, how to walk a pastor or leadership team through it, questions that invite honest reflection, cautions about how the message can be mishandled, and a faithful next step. It should sound like James: familiar, encouraging, direct, and never superior or canned.
 
