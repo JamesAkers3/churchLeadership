@@ -2,6 +2,10 @@
 
 This is a working foundation. It can be refined as the mission and vision become clearer.
 
+## Scripture governs the work
+
+James' standard, September 17, 2026: no paraphrasing Scripture to make it fit our purpose. Use exact quotations from an identified translation, in context. Faithful excerpts must be identified and must not change the meaning. Our commentary and application are our own words, not biblical quotations. If a passage does not genuinely support the point, remove its reference and the misleading connection instead of reshaping the passage. Existing interpretive discussion in this document is commentary, not a substitute for the biblical text; it still needs contextual review before publication. The project-wide editorial rule is recorded in `docs/superpowers/specs/2026-09-12-project-voice-and-heartbeat-design.md`.
+
 ## Primary Scripture: 2 Timothy 1:6–7
 
 The primary Scripture gathering this work together is **2 Timothy 1:6–7**.

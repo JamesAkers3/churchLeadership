@@ -36,6 +36,16 @@ The heartbeat must answer three questions:
 
 ## Voice
 
+### Scripture governs the work
+
+James' correction, September 17, 2026: "I am not ok with paraphrasing Scriptures to make it fit our purpose, if it does not fit then remove the scripture reference all together."
+
+This applies across the project, including visuals, worksheets, talking sheets and the mini-book. Quote Scripture exactly from a named translation, preserving its wording, punctuation and meaning. Clearly identify any faithful excerpt as an excerpt; never blend translations, substitute our wording or omit context that changes the meaning. Do not rewrite a passage to fit the available space or the point we want to make.
+
+Our reflection and application must be clearly distinguished from the biblical text. They must not be presented as Scripture or use a reference to imply that our inference is an explicit biblical statement. Check each passage in context before using it. If it does not genuinely support the point, remove the reference and any misleading appeal to it rather than forcing a connection. Scripture guides and corrects the framework; the framework does not reshape Scripture.
+
+Earlier artifacts stay preserved as history. Dim v1-v4 contain a custom summary labeled paraphrase and are not the corrected public-use candidates. On September 17 James approved replacing it with Jesus' exact spoken invitation from Mark 6:31, labeled NIV/Excerpt, in the new Dim v5 review candidate. All other wording remains unchanged; other PDFs and the talking sheet have not been corrected by that narrow revision. Details: `docs/strategy/when-the-light-grows-dim-production-notes-v5.md`.
+
 The rewrite will use short, plain sentences. One thought at a time. It can be vivid, energetic, and full of conviction, but it should never feel polished past the point of sounding human.
 
 We will remove consultant language, abstract labels, repeated contrasts, decorative explanations, and sentences that announce what the document is about instead of simply saying it.
@@ -43,6 +53,10 @@ We will remove consultant language, abstract labels, repeated contrasts, decorat
 We will not pretend to speak in Jesus' voice. We will point to His words, actions, compassion, questions, correction, restoration, and intentional way of forming people.
 
 ## What stays
+
+### Pastor capitalization
+
+Use **Pastor** and **Pastors** consistently in our own writing, including generic references and possessives. This is James' intentional editorial choice to honor the person and calling, not to place anyone above others. Keep direct quotations and published source titles as originally written. Preserve archived versions as historical records rather than revising them retroactively.
 
 The rewrite will preserve:
 

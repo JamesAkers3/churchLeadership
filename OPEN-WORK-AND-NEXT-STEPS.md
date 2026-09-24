@@ -2,6 +2,14 @@
 
 This is the bridge between what we have learned and what we still need to build.
 
+## Current Priority: Read Sheets and Mini-Book Order
+
+September 17, 2026: James paused **When the Light Grows Dim** and requested returning to the read/talking sheets for the remaining documents. Preserve that chapter and its open reviews without continuing it until he resumes it. Paused does not mean discarded or permanently excluded from the book.
+
+Develop the companion sheets as parts of one conversation, considering chapter order and transitions while writing. The active material is the five other current visuals plus the systems questions worksheet. James approved this working order on September 17: Rooted; pastoral support; Who Are You Bringing With You? (1-3-12); Formation Gap; Passion to Impact; systems questions. First master: `docs/strategy/rooted-read-sheet-v1.md`; first three-page PDF review copy: `output/pdf/rooted-flourishing-multiplying-life-read-sheet-v1.pdf`. James approved the PDF format; his resulting-page/voice review comes before extending it across the other chapters. Production checks and accessibility limitations are recorded in `docs/strategy/rooted-read-sheet-production-notes-v1.md`. Final book assembly, new visual redesigns and Dim work are not the current task. A later whole-book review may refine the sequence and transitions.
+
+The sheets should explain the visual in James' natural voice, keep Christ at the center, distinguish exact Bible quotations from our commentary, qualify research accurately, invite honest questions, and help the Pastor and team discern a supported practical response rather than receive another list of tasks.
+
 ## From Diagnosis to Practice
 
 > **We have learned how to name what is happening. Now we need to help churches know what to do next.**
@@ -115,6 +123,10 @@ This should include:
 - A regular rhythm for returning to the calling and adjusting the work
 
 ### 4. Life-Giving Systems Audit
+
+**Latest review draft:** `output/pdf/is-this-still-serving-the-calling-v2.pdf` implements James' approved five-group direction (Pastor, Staff, Local Church, Community, World/Missions), preference/evidence questions, no automatic passing score, and a prompt to remove/simplify/share work before adding it. Still three pages. Await his review; not a validated audit or completed systems implementation. V1 remains preserved.
+
+**September 16 first draft:** `output/pdf/is-this-still-serving-the-calling-v1.pdf` now offers a three-page questions, Life-Giving Reach, and next-step worksheet. James approved trying this direction; the PDF awaits his review. This is an initial tool, not a tested audit or completed implementation system. Copy, reference notes, and guardrails are recorded in `docs/strategy/systems-questions-worksheet-draft-2026-09-16.md`.
 
 **What we have named:** Churches becoming victims of the very systems meant to help them, resources continuing to flow toward work that is no longer fruitful, and staff carrying processes no one has stopped to question.
 

@@ -19,13 +19,19 @@ Jesus remains the standard—not church trends, organizational growth, attendanc
 ## Current working PDFs
 
 - `output/pdf/rooted-flourishing-multiplying-life-v8.pdf`
+- `output/pdf/rooted-flourishing-multiplying-life-read-sheet-v1.pdf` — first three-page companion; James' resulting-page/voice review pending.
 - `output/pdf/from-passion-to-impact-v8.pdf`
-- `output/pdf/a-pastor-can-be-known-and-still-unsupported.pdf`
-- `output/pdf/christ-at-the-center-1-3-12.pdf`
-- `output/pdf/the-formation-gap-v2.pdf`
+- `output/pdf/a-pastor-can-be-known-and-still-unsupported-v8.pdf`
+- `output/pdf/christ-at-the-center-1-3-12-v7.pdf` — approved September 16, 2026.
+- `output/pdf/the-formation-gap-v5.pdf` — approved September 17, 2026.
+- `output/pdf/is-this-still-serving-the-calling-v4.pdf` — latest worksheet; visual selection and pilot pending.
+- `output/pdf/when-the-light-grows-dim-v5.pdf` — latest visual; resulting-page/readiness review pending.
+- `output/pdf/when-the-light-grows-dim-talking-sheet-v1.pdf` — latest companion; alignment and care/readiness review pending.
 
-Older visual directions remain preserved in `output/pdf/archive/`. Version numbers belong in filenames and PDF metadata only; they should not appear on the face of a PDF.
+Formation Gap's latest working PDF combines v3's green-panel lead with v4's practical application, approved statistics/references/footer and exact Scripture beneath the lead. Earlier PDFs remain preserved. See the checkpoint and `docs/strategy/formation-gap-production-notes-v5.md` for the exact changes and verification.
+
+Only these nine working PDFs remain directly in `output/pdf/`. Forty older PDFs are preserved in `output/pdf/archive/`; its README indexes the history. The September 17 cleanup moved 14 files, with all 48 PDFs verified unchanged; the new Rooted read sheet is the sole later addition, bringing the total to 49. Historical notes may show an older PDF's former path; find the same filename in the archive. Version numbers belong in filenames and PDF metadata only; they should not appear on the face of a PDF.
 
 ## Continuing the work
 
-The next major deliverable is a practical Leaders Guide for the five visuals. After that, build the adaptable Community Engagement Worksheet. James' own mission, vision, central Scriptures, and brand foundation still need to be established before those tools are used to create the same foundation for other churches.
+We are developing PDF read sheets as chapters of a mini-book, starting with Rooted's three-page review copy. See its Markdown master and `docs/strategy/rooted-read-sheet-production-notes-v1.md` for the reading/presenter split and production/accessibility limits. The next chapter is pastoral support after Rooted review. When the Light Grows Dim is paused and preserved. Later build the adaptable Community Engagement Worksheet. James' own mission, vision, central Scriptures, and brand foundation still need to be established before those tools are used to create the same foundation for other churches.
