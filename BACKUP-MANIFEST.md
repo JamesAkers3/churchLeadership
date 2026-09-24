@@ -1,7 +1,9 @@
 # Backup Manifest
 
-**Prepared:** September 17, 2026
+**Prepared:** September 24, 2026
 **Purpose:** Preserve enough context, source material, working history, and production files for another session or collaborator to continue without starting over.
+
+**GitHub backup verified, September 24:** The complete September 16–17 artifact and context set was pushed to the public `JamesAkers3/churchLeadership` repository on `main` at commit `6798588`. It includes all 49 current and archived PDFs, the continuation records, research, editable Markdown masters, artwork, builders, checks, and review renders. All PDFs opened successfully before backup; the current Formation Gap, When the Light Grows Dim, Rooted read sheet, and pastoral-support closing-layout checks passed. This status note is the only follow-up change after that artifact snapshot.
 
 **Latest addition, September 17:** Added the first Rooted read-sheet PDF, `output/pdf/rooted-flourishing-multiplying-life-read-sheet-v1.pdf`; two reading pages and a separate presenter page. Editable master: `docs/strategy/rooted-read-sheet-v1.md`. Scope/checks/limitations: `docs/strategy/rooted-read-sheet-production-notes-v1.md`. Reproduction: `tmp/pdfs/build_rooted_read_sheet_v1.py`, `tmp/pdfs/check_rooted_read_sheet_v1.py`, content map and complete color/grayscale review renders. All 48 pre-existing PDFs verified unchanged; now nine main-folder PDFs plus 40 archived, 49 total. James approved the format, not the resulting page or final publication; voice/specialist/accessibility user review remains open. Dim stays paused. Saved locally; no GitHub backup performed. Earlier archive counts below describe the cleanup before this addition.
 

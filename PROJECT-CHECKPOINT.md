@@ -1,9 +1,11 @@
 # Where We Are
 
-**Saved:** September 17, 2026
+**Saved:** September 24, 2026
 **Folder:** /Users/jamesakers/Desktop/PERSONAL/James New Endeavor
 
 Everything is saved in this folder. This page is the place to begin after a reboot or a break.
+
+**GitHub backup verified, September 24:** The complete September 16–17 working set was committed and pushed to the public `JamesAkers3/churchLeadership` repository on `main` at commit `6798588`. The snapshot includes the current and archived PDFs, Markdown context and decision records, research notes, source artwork, builders, verification scripts, and review renders. All 49 PDFs opened successfully before backup; the current Formation Gap, When the Light Grows Dim, Rooted read sheet, and pastoral-support closing-layout checks passed. This backup-status note is the only project change made after that artifact snapshot.
 
 **Rooted read-sheet PDF completed, September 17:** James approved the proposed three-page format with "yes." First review copy: `output/pdf/rooted-flourishing-multiplying-life-read-sheet-v1.pdf`: two reading pages and one separate presenter-notes page. Master wording and safeguards retained; font subsets/Unicode maps embedded, actual text and tagged headings/lists/reading structure, printed Scripture references, no links or visible version. Root inspected all three final color/grayscale pages; text/order, bounds/overlap, contrast, font and structural mapping checks pass. All 48 previous PDFs verified unchanged; now nine main-folder PDFs plus 40 archived, 49 total. Reproduction/checks/limitations: `docs/strategy/rooted-read-sheet-production-notes-v1.md`. James' resulting-page/voice review and any requested specialist or accessibility/user test remain open; not full PDF-UA/WCAG or publication approval. No other chapter or combined book produced. Dim stays paused. Saved locally; no GitHub backup performed. Earlier proposal/draft states below are historical.
 
