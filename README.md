@@ -19,7 +19,7 @@ Jesus remains the standard—not church trends, organizational growth, attendanc
 ## Current working PDFs
 
 - `output/pdf/rooted-flourishing-multiplying-life-v8.pdf`
-- `output/pdf/rooted-flourishing-multiplying-life-read-sheet-v1.pdf` — first three-page companion; James' resulting-page/voice review pending.
+- `output/pdf/rooted-flourishing-multiplying-life-read-sheet-v4.pdf` — approved final three-page Rooted companion; prior read-sheet versions are archived.
 - `output/pdf/from-passion-to-impact-v8.pdf`
 - `output/pdf/a-pastor-can-be-known-and-still-unsupported-v8.pdf`
 - `output/pdf/christ-at-the-center-1-3-12-v7.pdf` — approved September 16, 2026.
@@ -30,7 +30,7 @@ Jesus remains the standard—not church trends, organizational growth, attendanc
 
 Formation Gap's latest working PDF combines v3's green-panel lead with v4's practical application, approved statistics/references/footer and exact Scripture beneath the lead. Earlier PDFs remain preserved. See the checkpoint and `docs/strategy/formation-gap-production-notes-v5.md` for the exact changes and verification.
 
-Only these nine working PDFs remain directly in `output/pdf/`. Forty older PDFs are preserved in `output/pdf/archive/`; its README indexes the history. The September 17 cleanup moved 14 files, with all 48 PDFs verified unchanged; the new Rooted read sheet is the sole later addition, bringing the total to 49. Historical notes may show an older PDF's former path; find the same filename in the archive. Version numbers belong in filenames and PDF metadata only; they should not appear on the face of a PDF.
+The current working PDFs remain directly in `output/pdf/`; older PDFs are preserved in `output/pdf/archive/`, whose README indexes the history. Rooted read-sheet v4 is the approved final revision for the current mini-book work, and v1-v3 are archived. Historical notes may show an older PDF's former path; find the same filename in the archive. Version numbers belong in filenames and PDF metadata only; they should not appear on the face of a PDF.
 
 ## Continuing the work
 

@@ -6,10 +6,12 @@ September 17, 2026 cleanup: 14 more superseded PDFs moved here without overwriti
 
 Later September 17 addition: the first Rooted read-sheet review copy brings the main folder to nine working PDFs and the total to 49. All 48 prior PDFs remain unchanged; the archive still has 40. Dim work is paused, not discarded. This addition does not change existing review or publication gates.
 
+October 24, 2026: James approved Rooted read-sheet v4 as final for the current mini-book work. Review PDFs v1-v3 moved here for recovery; no PDF was deleted or overwritten.
+
 ## Current working PDFs kept in `output/pdf/`
 
 - `rooted-flourishing-multiplying-life-v8.pdf`
-- `rooted-flourishing-multiplying-life-read-sheet-v1.pdf` — first three-page companion review copy
+- `rooted-flourishing-multiplying-life-read-sheet-v4.pdf` — approved final three-page Rooted companion
 - `from-passion-to-impact-v8.pdf`
 - `a-pastor-can-be-known-and-still-unsupported-v8.pdf`
 - `christ-at-the-center-1-3-12-v7.pdf`
@@ -19,6 +21,12 @@ Later September 17 addition: the first Rooted read-sheet review copy brings the 
 - `when-the-light-grows-dim-talking-sheet-v1.pdf`
 
 These are the latest working versions, not a blanket print-readiness approval. The Dim visual/talking sheet and questions worksheet retain their recorded review/pilot gates. James affirmed Formation Gap v5 with "Thats great" before requesting this cleanup.
+
+## Archived Rooted companion read sheets
+
+- `rooted-flourishing-multiplying-life-read-sheet-v1.pdf` - first three-page companion review copy
+- `rooted-flourishing-multiplying-life-read-sheet-v2.pdf` - audience-neutral opening revision
+- `rooted-flourishing-multiplying-life-read-sheet-v3.pdf` - seed-and-soil revision before the final practice wording and presenter-note cleanup
 
 ## Archived Rooted. Renewed. Multiplying Life. versions
 

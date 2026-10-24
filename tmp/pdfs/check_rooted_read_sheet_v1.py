@@ -7,7 +7,10 @@ import pdfplumber
 from pypdf import PdfReader
 from pypdf.generic import ContentStream
 
-from build_rooted_read_sheet_v1 import ROOT, OUTPUT, MAP, load_sections
+from build_rooted_read_sheet_v1 import ROOT, MAP, load_sections
+
+
+OUTPUT = ROOT / "output/pdf/archive/rooted-flourishing-multiplying-life-read-sheet-v1.pdf"
 
 
 def plain(s):
