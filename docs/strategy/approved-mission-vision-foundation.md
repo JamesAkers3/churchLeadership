@@ -41,6 +41,7 @@ Existing materials remain subject to this standard; recording the rule does not 
 - Use clear, practical, biblical, truth-driven language. The public-facing foundation replaces the earlier opening “With Scripture open.”
 - The mission describes our contribution; the vision describes the future we hope to see; the foundation states what governs the work. These are ministry statements, not Scripture quotations or guarantees of outcomes.
 - Equipping includes formation, appropriate authority, resources, and ongoing support. Shared responsibility must not become unsupported delegation.
+- Prayer with Pastors and staff is not a ceremonial opening or closing. It belongs before evaluation, when difficult truths surface, and before deciding the next step. Together we come before the Father, listen to Jesus through His Word, and ask the Holy Spirit to lead. We can support faithful response, but God is the One who produces real life change.
 - Pastors and Churches remain the current audience. Adaptation for Christ-centered nonprofits is a future expansion, not current service development. Leave room for it when choosing the name and brand.
 - The three requested editorial perspectives reviewed the statements: Protestant Christian public relations, Church leadership/executive pastoral ministry, and publicity. James approved the resulting wording and requested recording it in GitHub.
 

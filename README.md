@@ -22,7 +22,7 @@ Jesus remains the standard—not church trends, organizational growth, attendanc
 - `output/pdf/rooted-flourishing-multiplying-life-read-sheet-v5.pdf` — current post-QA Rooted companion review candidate; v4 remains the previously approved revision.
 - `output/pdf/from-passion-to-impact-v8.pdf`
 - `output/pdf/a-pastor-can-be-known-and-still-unsupported-v8.pdf`
-- `output/pdf/a-pastor-can-be-known-and-still-unsupported-read-sheet-v5.pdf` — current pastoral-support companion review candidate incorporating the October 25 page comments; v1-v4 remain preserved.
+- `output/pdf/a-pastor-can-be-known-and-still-unsupported-read-sheet-v6.pdf` — current prayer-centered pastoral-support companion review candidate; v1-v5 remain preserved.
 - `output/pdf/christ-at-the-center-1-3-12-v7.pdf` — approved September 16, 2026.
 - `output/pdf/the-formation-gap-v5.pdf` — approved September 17, 2026.
 - `output/pdf/is-this-still-serving-the-calling-v4.pdf` — latest worksheet; visual selection and pilot pending.

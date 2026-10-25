@@ -26,6 +26,12 @@ Humility does not mean avoiding what is difficult. The work includes asking ques
 
 The advisor, pastor, staff, and appropriate spiritual leadership listen together. They bring testimony, history, Scripture, prayer, disagreement, and experience into the conversation. Agreement is not manufactured, and one strong personality is not allowed to impersonate the voice of the Holy Spirit.
 
+### Prayer together
+
+Prayer is not a ceremonial opening or closing to a process we believe we control. The advisor, Pastor, and staff pray together before evaluation begins, when difficult truths surface, and before deciding how to respond. Together we come before the Father, listen to Jesus through His Word, and ask the Holy Spirit for truth, conviction, comfort, wisdom, and direction.
+
+We can ask good questions, name patterns, and help build faithful systems, but we cannot manufacture real life change. God does that work. Our responsibility is to listen, test what we hear through Scripture and wise community, respond faithfully to what He makes clear, and support one another in carrying it out.
+
 ### Biblical examination
 
 Familiarity does not make a practice biblical. Longevity does not make it healthy. Success does not make it faithful. Every system remains open to examination through Scripture and the life, character, priorities, and methods of Jesus.
