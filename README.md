@@ -19,9 +19,10 @@ Jesus remains the standard—not church trends, organizational growth, attendanc
 ## Current working PDFs
 
 - `output/pdf/rooted-flourishing-multiplying-life-v8.pdf`
-- `output/pdf/rooted-flourishing-multiplying-life-read-sheet-v4.pdf` — approved final three-page Rooted companion; prior read-sheet versions are archived.
+- `output/pdf/rooted-flourishing-multiplying-life-read-sheet-v5.pdf` — current post-QA Rooted companion review candidate; v4 remains the previously approved revision.
 - `output/pdf/from-passion-to-impact-v8.pdf`
 - `output/pdf/a-pastor-can-be-known-and-still-unsupported-v8.pdf`
+- `output/pdf/a-pastor-can-be-known-and-still-unsupported-read-sheet-v4.pdf` — current post-QA pastoral-support companion review candidate; v1-v3 remain preserved.
 - `output/pdf/christ-at-the-center-1-3-12-v7.pdf` — approved September 16, 2026.
 - `output/pdf/the-formation-gap-v5.pdf` — approved September 17, 2026.
 - `output/pdf/is-this-still-serving-the-calling-v4.pdf` — latest worksheet; visual selection and pilot pending.
@@ -34,4 +35,4 @@ The current working PDFs remain directly in `output/pdf/`; older PDFs are preser
 
 ## Continuing the work
 
-We are developing PDF read sheets as chapters of a mini-book, starting with Rooted's three-page review copy. See its Markdown master and `docs/strategy/rooted-read-sheet-production-notes-v1.md` for the reading/presenter split and production/accessibility limits. The next chapter is pastoral support after Rooted review. When the Light Grows Dim is paused and preserved. Later build the adaptable Community Engagement Worksheet. James' own mission, vision, central Scriptures, and brand foundation still need to be established before those tools are used to create the same foundation for other churches.
+We are developing PDF read sheets as chapters of a mini-book. Rooted is approved for the current workflow, and the pastoral-support companion is now in first-review form. See their Markdown masters for the reading/presenter split and production boundaries. The next chapter after pastoral support is Who Are You Bringing With You? (1-3-12). When the Light Grows Dim is paused and preserved. Later build the adaptable Community Engagement Worksheet. James' own mission, vision, central Scriptures, and brand foundation still need to be established before those tools are used to create the same foundation for other churches.

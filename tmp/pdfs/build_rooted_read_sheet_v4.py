@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SOURCE = ROOT / "docs/strategy/rooted-read-sheet-v4.md"
 OUTPUT = ROOT / "output/pdf/rooted-flourishing-multiplying-life-read-sheet-v4.pdf"
 MAP = ROOT / "tmp/pdfs/rooted-read-sheet-v4-content-map.json"
+VERSION = "v4"
 
 spec = spec_from_file_location("rooted_v3", ROOT / "tmp/pdfs/build_rooted_read_sheet_v3.py")
 v3 = module_from_spec(spec)
@@ -28,7 +29,7 @@ def build():
     raw = BytesIO()
     c = canvas.Canvas(raw, pagesize=base.PAGE, pageCompression=1,
                       pdfVersion=(1, 4), initialFontName="Arial")
-    c.setTitle("Rooted. Flourishing. Multiplying Life. - Read Sheet v4")
+    c.setTitle(f"Rooted. Flourishing. Multiplying Life. - Read Sheet {VERSION}")
     c.setAuthor("James Akers")
     c.setCreator("James Akers")
     c.setSubject("A Christ-centered seed-and-soil conversation about recognizing and tending life")

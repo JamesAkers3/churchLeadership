@@ -1,0 +1,933 @@
+{
+  "font_embedding_flags": {
+    "Arial": 8,
+    "Arial-Bold": 8,
+    "Georgia": 8,
+    "Georgia-Bold": 8
+  },
+  "records": [
+    {
+      "page": 0,
+      "mcid": 0,
+      "role": "P",
+      "text": "A PASTOR CAN BE KNOWN AND STILL UNSUPPORTED.",
+      "box": [
+        46,
+        743.5,
+        566,
+        755
+      ],
+      "font_size": 9.0
+    },
+    {
+      "page": 0,
+      "mcid": 1,
+      "role": "H1",
+      "text": "People can know your name, hear your sermons, and depend on your leadership without knowing what you carry.",
+      "box": [
+        46,
+        631.5,
+        566,
+        711
+      ],
+      "font_size": 22.5
+    },
+    {
+      "page": 0,
+      "mcid": 2,
+      "role": "P",
+      "text": "Visibility can hide isolation. Recognition and support are not the same thing. A Pastor may be surrounded by people, appreciated by the church, and still have no safe place to speak honestly or share the weight.",
+      "box": [
+        46,
+        590.9,
+        566,
+        617.5
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 0,
+      "mcid": 3,
+      "role": "P",
+      "text": "The three figures in the visual come from separate survey questions. They are not a scale and they do not describe one group moving through three stages. They do tell a Pastor who feels alone, you are not the only one. They also ask the church whether the people around the role know the person carrying it.",
+      "box": [
+        46,
+        546.0,
+        566,
+        585.9
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 0,
+      "mcid": 4,
+      "role": "P",
+      "text": "Who knows the soul beneath your role?",
+      "box": [
+        46,
+        526.2,
+        566,
+        541.0
+      ],
+      "font_size": 11.4
+    },
+    {
+      "page": 0,
+      "mcid": 5,
+      "role": "H2",
+      "text": "Jesus invited people closer",
+      "box": [
+        46,
+        497.70000000000005,
+        566,
+        516.2
+      ],
+      "font_size": 15.4
+    },
+    {
+      "page": 0,
+      "mcid": 6,
+      "role": "P",
+      "text": "In Gethsemane, Jesus went apart to pray to the Father. He brought Peter, James, and John farther with Him and named the sorrow He was carrying. The wider circle of disciples remained nearby, but these three were invited closer and asked to keep watch.",
+      "box": [
+        46,
+        452.80000000000007,
+        566,
+        492.70000000000005
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 0,
+      "mcid": 7,
+      "role": "P",
+      "text": "They fell asleep. Their failure does not make His request a weakness. Jesus showed that strength and honest need can exist together.",
+      "box": [
+        46,
+        422.20000000000005,
+        566,
+        448.80000000000007
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 0,
+      "mcid": 8,
+      "role": "P",
+      "text": "Gethsemane shows the difference between having people nearby and allowing trusted people close enough to see the cost. A Pastor is still a disciple of Jesus and still needs relationships in which truth, prayer, encouragement, and the Word of God can be received personally.",
+      "box": [
+        46,
+        325.70000000000005,
+        356,
+        395.70000000000005
+      ],
+      "font_size": 10.8
+    },
+    {
+      "page": 0,
+      "mcid": 9,
+      "role": "BlockQuote",
+      "text": "“Therefore, a Christian needs another Christian who speaks God’s Word to him.”",
+      "box": [
+        392,
+        335.20000000000005,
+        554,
+        403.20000000000005
+      ],
+      "font_size": 13.1
+    },
+    {
+      "page": 0,
+      "mcid": 10,
+      "role": "P",
+      "text": "- Dietrich Bonhoeffer, Life Together",
+      "box": [
+        392,
+        316.20000000000005,
+        554,
+        327.20000000000005
+      ],
+      "font_size": 8.9
+    },
+    {
+      "page": 0,
+      "mcid": 11,
+      "role": "H2",
+      "text": "The weight can be shared without diminishing the calling",
+      "box": [
+        46,
+        271.70000000000005,
+        566,
+        290.20000000000005
+      ],
+      "font_size": 15.4
+    },
+    {
+      "page": 0,
+      "mcid": 12,
+      "role": "P",
+      "text": "In Exodus 17, Moses did not win by hiding his exhaustion. Aaron and Hur gave him a place to sit and held up his hands. Joshua led the people in the battle. No one replaced Moses, and Moses did not carry every part alone.",
+      "box": [
+        46,
+        240.10000000000005,
+        566,
+        266.70000000000005
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 0,
+      "mcid": 13,
+      "role": "P",
+      "text": "The calling may be personal, but the weight was never meant to be carried alone.",
+      "box": [
+        46,
+        221.30000000000004,
+        566,
+        236.10000000000005
+      ],
+      "font_size": 11.4
+    },
+    {
+      "page": 0,
+      "mcid": 14,
+      "role": "P",
+      "text": "The same pattern appears around Paul. The Philippian church shared in his troubles, sent help more than once, and sent Epaphroditus to care for his needs. Aristarchus, a believer from Thessalonica, stayed close enough to accompany Paul and later be identified as his fellow prisoner. Compassion became provision, presence, partnership, and shared responsibility.",
+      "box": [
+        46,
+        164.10000000000002,
+        566,
+        217.30000000000004
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 1,
+      "mcid": 0,
+      "role": "H2",
+      "text": "Compassion takes different forms.",
+      "box": [
+        46,
+        686.5,
+        566,
+        711
+      ],
+      "font_size": 20.7
+    },
+    {
+      "page": 1,
+      "mcid": 1,
+      "role": "P",
+      "text": "No act of compassion is too small to matter, and no burden is too great for the body of Christ to face together. We do not have to do everything. We do have to faithfully play our part.",
+      "box": [
+        46,
+        628.1,
+        566,
+        672.5
+      ],
+      "font_size": 11.4
+    },
+    {
+      "page": 1,
+      "mcid": 2,
+      "role": "P",
+      "text": "Some will hold up the Pastor’s arms. Some will take on responsibilities the Pastor has been carrying alone. Some will bring resources. Some will create room for rest. Some will cover the pulpit, make the phone calls, provide the meals, or simply remain close when the road becomes difficult.",
+      "box": [
+        46,
+        583.2,
+        566,
+        623.1
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 1,
+      "mcid": 3,
+      "role": "P",
+      "text": "The Pastor is called to shepherd the congregation, but the congregation is also called to care for those who shepherd them. As people respond to the calling Christ has placed on their lives, they begin to notice, encourage, strengthen, and help carry one another, including their Pastor.",
+      "box": [
+        46,
+        481.20000000000005,
+        356,
+        551.2
+      ],
+      "font_size": 10.8
+    },
+    {
+      "page": 1,
+      "mcid": 4,
+      "role": "BlockQuote",
+      "text": "“When we struggle privately, we compensate in the way we lead.”",
+      "box": [
+        392,
+        496.20000000000005,
+        554,
+        564.2
+      ],
+      "font_size": 13.1
+    },
+    {
+      "page": 1,
+      "mcid": 5,
+      "role": "P",
+      "text": "- Andy Stanley, Courage in Leadership",
+      "box": [
+        392,
+        466.20000000000005,
+        554,
+        488.20000000000005
+      ],
+      "font_size": 8.9
+    },
+    {
+      "page": 1,
+      "mcid": 6,
+      "role": "P",
+      "text": "Not every weight belongs on the Pastor’s shoulders simply because they have been willing to carry it.",
+      "box": [
+        46,
+        416.6,
+        566,
+        446.20000000000005
+      ],
+      "font_size": 11.4
+    },
+    {
+      "page": 1,
+      "mcid": 7,
+      "role": "H2",
+      "text": "Questions worth sitting with",
+      "box": [
+        46,
+        387.1,
+        566,
+        405.6
+      ],
+      "font_size": 15.4
+    },
+    {
+      "page": 1,
+      "mcid": 8,
+      "role": "Lbl",
+      "text": "1.",
+      "box": [
+        46,
+        368.8,
+        63,
+        382.1
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 1,
+      "mcid": 9,
+      "role": "LBody",
+      "text": "Who is close enough to see both the fruit of the Pastor’s leadership and what it costs to carry it?",
+      "box": [
+        66,
+        368.8,
+        566,
+        382.1
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 1,
+      "mcid": 10,
+      "role": "Lbl",
+      "text": "2.",
+      "box": [
+        46,
+        352.5,
+        63,
+        365.8
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 1,
+      "mcid": 11,
+      "role": "LBody",
+      "text": "What responsibilities has the Pastor continued carrying because no one else has stepped forward or been prepared to carry them?",
+      "box": [
+        66,
+        339.2,
+        566,
+        365.8
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 1,
+      "mcid": 12,
+      "role": "Lbl",
+      "text": "3.",
+      "box": [
+        46,
+        322.9,
+        63,
+        336.2
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 1,
+      "mcid": 13,
+      "role": "LBody",
+      "text": "What practical act of care would create meaningful support now, before a crisis makes the need impossible to ignore?",
+      "box": [
+        66,
+        309.59999999999997,
+        566,
+        336.2
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 1,
+      "mcid": 14,
+      "role": "H2",
+      "text": "Putting this into practice",
+      "box": [
+        46,
+        282.09999999999997,
+        566,
+        300.59999999999997
+      ],
+      "font_size": 15.4
+    },
+    {
+      "page": 1,
+      "mcid": 15,
+      "role": "P",
+      "text": "Begin with one safe, honest conversation. Do not require the Pastor to disclose personal struggles in a group or make them responsible for designing their own care.",
+      "box": [
+        46,
+        250.49999999999997,
+        566,
+        277.09999999999997
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 1,
+      "mcid": 16,
+      "role": "P",
+      "text": "Ask what weight can be shared now. The response may be a protected day of rest, peer support, counseling, covering the pulpit, changing a schedule, ending needless work, or placing a real responsibility into capable hands. Agree on who will act, what support they need, and when you will check back.",
+      "box": [
+        46,
+        207.59999999999997,
+        566,
+        247.49999999999997
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 1,
+      "mcid": 17,
+      "role": "P",
+      "text": "Caring for a Pastor is not merely a kind gesture. It is one way the body of Christ faithfully cares for its own.",
+      "box": [
+        46,
+        174.99999999999997,
+        566,
+        204.59999999999997
+      ],
+      "font_size": 11.4
+    },
+    {
+      "page": 1,
+      "mcid": 18,
+      "role": "H2",
+      "text": "Moving into the next chapter",
+      "box": [
+        46,
+        147.49999999999997,
+        566,
+        165.99999999999997
+      ],
+      "font_size": 15.4
+    },
+    {
+      "page": 1,
+      "mcid": 19,
+      "role": "P",
+      "text": "Support asks who is close enough to know the person carrying the role. The next conversation asks how a Pastor remains in Christ, allows trusted people closer, and brings others alongside the work.",
+      "box": [
+        46,
+        115.89999999999998,
+        566,
+        142.49999999999997
+      ],
+      "font_size": 10.4
+    },
+    {
+      "page": 1,
+      "mcid": 20,
+      "role": "P",
+      "text": "That brings us to Who Are You Bringing With You?",
+      "box": [
+        46,
+        99.09999999999998,
+        566,
+        113.89999999999998
+      ],
+      "font_size": 11.4
+    },
+    {
+      "page": 2,
+      "mcid": 0,
+      "role": "H2",
+      "text": "Presenter notes",
+      "box": [
+        46,
+        686.5,
+        566,
+        711
+      ],
+      "font_size": 20.7
+    },
+    {
+      "page": 2,
+      "mcid": 1,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        661.15,
+        63,
+        672.5
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 2,
+      "role": "LBody",
+      "text": "Let people examine the visual before explaining the statistics. Ask what they notice and where they feel tension.",
+      "box": [
+        66,
+        661.15,
+        566,
+        672.5
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 3,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        646.8,
+        63,
+        658.15
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 4,
+      "role": "LBody",
+      "text": "Say plainly that the Barna figures are separate survey measures, not a diagnosis, progression, or mathematical contrast. Their purpose here is recognition and conversation, not shock.",
+      "box": [
+        66,
+        635.4499999999999,
+        566,
+        658.15
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 5,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        621.0999999999999,
+        63,
+        632.4499999999999
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 6,
+      "role": "LBody",
+      "text": "Keep the conversation from becoming another assignment for the Pastor. The board, staff, volunteers, and congregation should ask what part Christ is calling them to carry.",
+      "box": [
+        66,
+        609.7499999999999,
+        566,
+        632.4499999999999
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 7,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        595.3999999999999,
+        63,
+        606.7499999999999
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 8,
+      "role": "LBody",
+      "text": "Do not pressure a Pastor to disclose pain publicly. Offer private paths for conversation, explain confidentiality limits, and encourage qualified professional or denominational support when appropriate.",
+      "box": [
+        66,
+        584.0499999999998,
+        566,
+        606.7499999999999
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 9,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        569.6999999999998,
+        63,
+        581.0499999999998
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 10,
+      "role": "LBody",
+      "text": "Honor the Pastor’s faithfulness without making overwork untouchable. A willingness to carry weight does not prove that the weight still belongs on the Pastor’s shoulders.",
+      "box": [
+        66,
+        558.3499999999998,
+        566,
+        581.0499999999998
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 11,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        543.9999999999998,
+        63,
+        555.3499999999998
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 12,
+      "role": "LBody",
+      "text": "Invite concrete care. “We appreciate you” is meaningful, but appreciation is not the same as rest, friendship, shared responsibility, spiritual support, or a safe place to tell the truth.",
+      "box": [
+        66,
+        532.6499999999997,
+        566,
+        555.3499999999998
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 13,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        518.2999999999997,
+        63,
+        529.6499999999997
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 14,
+      "role": "LBody",
+      "text": "Keep the two human quotations visually and theologically subordinate to Scripture. Bonhoeffer supports the mutual need within Christian community. Stanley names a leadership consequence of keeping struggle hidden.",
+      "box": [
+        66,
+        506.94999999999976,
+        566,
+        529.6499999999997
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 15,
+      "role": "H3",
+      "text": "Scripture and content boundaries",
+      "box": [
+        46,
+        481.44999999999976,
+        566,
+        497.94999999999976
+      ],
+      "font_size": 13.7
+    },
+    {
+      "page": 2,
+      "mcid": 16,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        465.09999999999974,
+        63,
+        476.44999999999976
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 17,
+      "role": "LBody",
+      "text": "Mark 14:32-42: Jesus brought Peter, James, and John farther into Gethsemane and asked them to keep watch. Judas had already separated from the group. Do not present the scene as all twelve disciples occupying identical circles.",
+      "box": [
+        66,
+        453.7499999999998,
+        566,
+        476.44999999999976
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 18,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        439.39999999999975,
+        63,
+        450.7499999999998
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 19,
+      "role": "LBody",
+      "text": "Exodus 17:8-13: Aaron and Hur held up Moses’ hands, while Joshua led the people in battle. The passage shows distinct people carrying different parts; it should not be used to place Moses or a modern Pastor beyond accountability.",
+      "box": [
+        66,
+        428.0499999999998,
+        566,
+        450.7499999999998
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 20,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        413.69999999999976,
+        63,
+        425.0499999999998
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 21,
+      "role": "LBody",
+      "text": "Philippians 2:25-30; 4:14-18: The Philippian church supported Paul and sent Epaphroditus. While Paul was in Thessalonica, the Philippians sent aid more than once.",
+      "box": [
+        66,
+        402.3499999999998,
+        566,
+        425.0499999999998
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 22,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        387.9999999999998,
+        63,
+        399.3499999999998
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 23,
+      "role": "LBody",
+      "text": "Acts 20:4; 27:2; Colossians 4:10: Aristarchus was from Thessalonica, accompanied Paul, and was later identified as his fellow prisoner. Do not state that the entire Thessalonian church served Paul in prison.",
+      "box": [
+        66,
+        376.6499999999998,
+        566,
+        399.3499999999998
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 24,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        362.2999999999998,
+        63,
+        373.6499999999998
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 25,
+      "role": "LBody",
+      "text": "1 Thessalonians 5:11-14; Galatians 6:2: These passages ground mutual encouragement, help for the weak, patience, and shared burdens. Read the passages from a Bible rather than presenting our application as a quotation from Scripture.",
+      "box": [
+        66,
+        350.9499999999998,
+        566,
+        373.6499999999998
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 26,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        336.5999999999998,
+        63,
+        347.9499999999998
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 27,
+      "role": "LBody",
+      "text": "The 1-3-12 language is a relational principle, not a ranking system or a required headcount. The fuller explanation belongs in the next chapter.",
+      "box": [
+        66,
+        325.24999999999983,
+        566,
+        347.9499999999998
+      ],
+      "font_size": 9.3
+    },
+    {
+      "page": 2,
+      "mcid": 28,
+      "role": "H3",
+      "text": "Sources",
+      "box": [
+        46,
+        299.74999999999983,
+        566,
+        316.24999999999983
+      ],
+      "font_size": 13.7
+    },
+    {
+      "page": 2,
+      "mcid": 29,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        284.24999999999983,
+        63,
+        294.74999999999983
+      ],
+      "font_size": 8.6
+    },
+    {
+      "page": 2,
+      "mcid": 30,
+      "role": "LBody",
+      "text": "Barna Group. “7-Year Trends: Pastors Feel More Loneliness & Less Support.” July 12, 2023. Displayed figures: 2022 survey of 585 U.S. Protestant senior Pastors.",
+      "box": [
+        66,
+        273.74999999999983,
+        566,
+        294.74999999999983
+      ],
+      "font_size": 8.6
+    },
+    {
+      "page": 2,
+      "mcid": 31,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        261.24999999999983,
+        63,
+        271.74999999999983
+      ],
+      "font_size": 8.6
+    },
+    {
+      "page": 2,
+      "mcid": 32,
+      "role": "LBody",
+      "text": "Bonhoeffer, Dietrich. Life Together. Hymns Ancient and Modern Ltd., 2012 Kindle edition, locations 116-121.",
+      "box": [
+        66,
+        261.24999999999983,
+        566,
+        271.74999999999983
+      ],
+      "font_size": 8.6
+    },
+    {
+      "page": 2,
+      "mcid": 33,
+      "role": "Lbl",
+      "text": "•",
+      "box": [
+        46,
+        248.74999999999983,
+        63,
+        259.24999999999983
+      ],
+      "font_size": 8.6
+    },
+    {
+      "page": 2,
+      "mcid": 34,
+      "role": "LBody",
+      "text": "Stanley, Andy. “From the Vault: Courage in Leadership.” Andy Stanley Leadership Podcast, August 2023.",
+      "box": [
+        66,
+        248.74999999999983,
+        566,
+        259.24999999999983
+      ],
+      "font_size": 8.6
+    }
+  ]
+}

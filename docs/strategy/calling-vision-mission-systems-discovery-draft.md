@@ -1,5 +1,9 @@
 # Calling, Vision, Mission, and Life-Giving Systems
 
+## Approved public-facing statements — October 24, 2026
+
+James approved the final public-facing mission, vision, and foundation in [Approved Mission, Vision, and Foundation](approved-mission-vision-foundation.md). Use that document as the source of truth for brand and launch copy, including the capitalization of **Pastors** and **Churches**. The longer working statements below are preserved as discovery context; references below to future public-facing refinement are historical and have been resolved by this approval. The name and visual identity remain open.
+
 ## Working Discovery Guide
 
 This guide is meant to help us move from a burden we feel to a calling we can explain, a future we can picture, a mission we can practice, and systems that help people carry it together.
