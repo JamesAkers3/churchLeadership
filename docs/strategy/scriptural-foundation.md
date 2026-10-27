@@ -31,6 +31,18 @@ Paul is not shouting motivation at Timothy from a distance. He is praying for hi
 
 Primary passage: [2 Timothy 1:3–14](https://www.biblegateway.com/passage/?search=2%20Timothy%201%3A3-14&version=NIV)
 
+## Formative Scripture: Titus 2:11–15
+
+**Titus 2:11–15 is a formative passage for this work.** Paul tells Titus to teach and encourage the Church around the grace of God revealed in Jesus—a life-giving gift that brings salvation and also forms the way we live. Jesus gave Himself to redeem and purify a people who belong to Him and are eager to do good.
+
+This passage holds together grace, formation, hope, truth, and practical obedience. Grace is not a reward for having healthy systems or impressive results. It is God's gift in Christ. That same grace teaches us to turn away from what is unhealthy and ungodly, to live with wisdom and faithfulness in the present, and to keep our hope fixed on Jesus.
+
+Paul's instruction to Titus also shapes the posture of this endeavor: encourage and teach clearly, keep Jesus and His gift at the center, help people put truth into practice, and call out the good work God is forming them to do. The goal is not merely better organization. It is life increasingly shaped by the grace of Christ.
+
+### Guardrail
+
+Paul's direction to teach, encourage, and speak with authority must not be used to make the advisor unquestionable or to silence honest examination. The authority in this passage belongs to the truth of the gospel, not to personality, position, or certainty. This work remains accountable to Scripture, prayer, appropriate Church leadership, and shared discernment under the Holy Spirit.
+
 ## Supporting Movement
 
 These passages gather beneath the primary Scripture as one movement:
